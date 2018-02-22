@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+
+.navBar {
+    background-color: #231F20;
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+
+.navBar-logo {
+    display: inline;
+}
+
+.navBar-logo-image {
+    height: 50px;
+    margin: 10px;
+    width: 180px;
+}
+
+.login {
+    float: right;
+    margin: 25px 30px 25px 0;
+}
+
+input[type="text"], input[type="password"] {
+    border: 1px solid #777;
+    height: 20px;
+
+}
+
+input[type="submit"] {
+    background-color: #FFFF66;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #FFFF66;
+    width: 65px;
+    height: 22px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+#container {
+    margin: 50px;
+}
+
+.container-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.banner-image {
+    width: 531px;
+    height: 361px;
+    margin-right: 50px;
+}
+
+.wrapper-first-section-list {
+    display: grid;
+    grid-template-columns: repeat(2,300px);
+    grid-template-rows: 30px;
+    grid-gap: 10px;
+}
+
+.wrapper-first-section-list li {
+    list-style: none;
+    margin-top: 30px;
+    font-size: 18px;
+    color: #777777;
+}
+.tick{
+    height: 20px;
+    width: 20px;
+}
+
+.wrapper-second-section{
+    height: 500px;
+    width: 250px;
+    background-color: #901632;
+}
+
+.mark{
+    height: 20px;
+    width: 20px;
+    display: inline-block;
+}
+
+.wrapper-second-section h1{
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.mark{
+    height: 20px;
+    width: 20px;
+    text-align: center;
+}
+
+.list-image{
+    margin: 8px 0 8px 0;
+}
+
+.wrapper-second-section-list li{
+    list-style: none;
+    text-align: center;
+    margin: 5px 0 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) and (max-width:900px ){
+    .container-wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .banner-image {
+        width: 500px;
+        height: 350px;
+
+    }
+
+    .wrapper-second-section{
+        height: 500px;
+        width: 350px;
+        background-color: #901632;
+    }
+
+
+}
