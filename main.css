@@ -1,12 +1,13 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: "Segoe UI",sans-serif;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: monospace;
+
 }
 
 .navBar {
@@ -26,119 +27,71 @@ body {
     width: 180px;
 }
 
-.login {
-    float: right;
-    margin: 25px 30px 25px 0;
+#middleWrapper {
+    height: 100%;
+    width: 100%;
 }
 
-input[type="text"], input[type="password"] {
-    border: 1px solid #777;
-    height: 20px;
-
+.middle-header {
+    height: 50px;
 }
 
-input[type="submit"] {
-    background-color: #FFFF66;
+.middle-header h1 {
+    font-size: 50px;
+    margin: 30px 0 30px 10px;
+    color: #3C57A7;
+    text-align: center;
+}
+
+.middle-header span {
+    color: #4FB748;
+}
+
+.middle-wrapper-main {
+    background-color: #FFFFE0;
+}
+
+.middle-wrapper-main-subpart h1 {
+    font-size: 30px;
+    margin: 50px 0 30px 10px;
     color: #000;
-    border-radius: 5px;
-    border: 1px solid #FFFF66;
-    width: 65px;
-    height: 22px;
-    font-weight: 600;
-    font-size: 13px;
+    text-align: center;
 }
 
-#container {
-    margin: 50px;
-}
-
-.container-wrapper {
-    height: 100vh;
+.img {
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    margin-bottom: 10px;
 }
 
-.banner-image {
-    width: 531px;
-    height: 361px;
-    margin-right: 50px;
+.icon {
+    width: 80px;
 }
 
-.wrapper-first-section-list {
-    display: grid;
-    grid-template-columns: repeat(2,300px);
-    grid-template-rows: 30px;
-    grid-gap: 10px;
+.myCol h1 {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
 }
 
-.wrapper-first-section-list li {
-    list-style: none;
-    margin-top: 30px;
-    font-size: 18px;
-    color: #777777;
-}
-.tick{
-    height: 20px;
-    width: 20px;
-}
-
-.wrapper-second-section{
-    height: 500px;
-    width: 250px;
-    background-color: #901632;
-}
-
-.mark{
-    height: 20px;
-    width: 20px;
+.myCol span {
     display: inline-block;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 10px;
 }
 
-.wrapper-second-section h1{
-    font-size: 20px;
+.compareCol{
+    background-color: #003333;
+    height: 80px;
+}
+
+.compareCol h1{
+    font-size: 40px;
+    text-align: center;
     color: #fff;
-    text-align: center;
-    margin: 10px 0 10px 0;
-}
-
-.mark{
-    height: 20px;
-    width: 20px;
-    text-align: center;
-}
-
-.list-image{
-    margin: 8px 0 8px 0;
-}
-
-.wrapper-second-section-list li{
-    list-style: none;
-    text-align: center;
-    margin: 5px 0 5px 0;
-    font-size: 14px;
-    color: #ffffff;
-}
-
-@media (min-width: 768px) and (max-width:900px ){
-    .container-wrapper {
-        height: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-
-    .banner-image {
-        width: 500px;
-        height: 350px;
-
-    }
-
-    .wrapper-second-section{
-        height: 500px;
-        width: 350px;
-        background-color: #901632;
-    }
-
-
+    padding-top: 20px;
 }
