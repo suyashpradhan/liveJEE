@@ -84,14 +84,59 @@ body {
     margin-top: 10px;
 }
 
-.compareCol{
+.middle-sub{
+    display: block;
+    height: 100px;
     background-color: #003333;
-    height: 80px;
 }
 
-.compareCol h1{
+.middle-sub-header{
     font-size: 40px;
     text-align: center;
     color: #fff;
-    padding-top: 20px;
+    padding: 20px;
+}
+
+.class-header{
+    text-align: center;
+    margin: 30px 0 0 0;
+    padding: 0;
+}
+.class-header-symbol{
+    text-align: center;
+    font-size: 120px;
+    padding: 0;
+    margin: 0;
+    border-bottom: 1px solid gray;
+}
+
+.class-header-subtopic{
+    font-size: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+.class-section-button{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px 20px 0;
+}
+
+.know-more{
+    padding: 5px 5px 8px 5px;
+    background-color: #003333;
+    color: #fff;
+    border: 1px solid #003333;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.know-more:hover{
+    padding: 5px 5px 8px 5px;
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #000;
+    height: 40px;
+    border-radius: 5px;
 }
