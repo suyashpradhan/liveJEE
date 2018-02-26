@@ -27,12 +27,6 @@ body {
     width: 160px;
 }
 
-/*
-.bannerWrapper {
-    height: 100%;
-    width: 100%;
-}
-
 .bannerImage {
     height: auto;
     max-width: 100%;
@@ -40,44 +34,15 @@ body {
     padding: 0;
 }
 
-.bannerWrapperInfo {
-    display: grid;
-    grid-template-columns: 300px 250px;
-    grid-gap: 100px;
-    grid-template-rows: 75px;
-}
-
-.bannerWrapperInfo h1 {
-    font-size: 20px;
-}
-
-.bannerWrapperInfoSub{
-    display: grid;
-    grid-template-columns: 300px 200px;
-    grid-gap: 100px;
-}
-
-.bannerWrapperInfoSub h1 {
-    font-size: 20px;
-}
-*/
-
-.bannerImage {
-    height: auto;
-    max-width: 100%;
-    margin: 30px 0 30px 0;
-    padding: 0;
-}
-
-.innerColMain h1{
+.innerColMain h1 {
     font-size: 15px;
 }
 
-.innerColSub h1{
+.innerColSub h1 {
     font-size: 15px;
 }
 
-.prerequisiteSection{
+.prerequisiteSection {
     height: 100%;
     width: auto;
     background-color: #901632;
@@ -85,25 +50,26 @@ body {
     border-radius: 5px;
 }
 
-.prerequisiteSection h1{
+.prerequisiteSection h1 {
     font-size: 20px;
     text-align: center;
     color: #fff;
 }
-.innerList{
+
+.innerList {
     display: flex;
     justify-content: center;
     align-items: center;
 
 }
 
-.innerListText h6{
+.innerListText h6 {
     text-align: center;
     font-size: 15px;
     color: #fff;
 }
 
-.innerListText h5{
+.innerListText h5 {
     text-align: center;
     margin-bottom: 10px;
     font-size: 15px;
@@ -341,11 +307,12 @@ body {
 }
 
 @media screen and (max-width: 500px) {
-    .navBar-logo{
+    .navBar-logo {
         display: flex;
         justify-content: center;
         align-items: center;
     }
+
     .middle-header h1 {
         font-size: 20px;
         margin: 50px 0 10px 10px;
