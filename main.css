@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Segoe UI",sans-serif;
+    font-family: "Segoe UI", sans-serif;
 }
 
 body {
@@ -53,7 +53,8 @@ body {
 
 .middle-wrapper-main-subpart h1 {
     font-size: 30px;
-    margin: 50px 0 30px 10px;
+    margin: 40px 0 30px 10px;
+    padding-top: 20px;
     color: #000;
     text-align: center;
 }
@@ -84,26 +85,27 @@ body {
     margin-top: 10px;
 }
 
-.middle-sub{
+.middle-sub {
     display: block;
     height: 100px;
     background-color: #003333;
 }
 
-.middle-sub-header{
+.middle-sub-header {
     font-size: 40px;
     text-align: center;
     color: #fff;
     padding: 20px;
 }
 
-.class-header{
+.class-header {
     text-align: center;
     margin: 30px 0 0 0;
     padding: 0;
     font-size: 50px;
 }
-.class-header-symbol{
+
+.class-header-symbol {
     text-align: center;
     font-size: 90px;
     padding: 0;
@@ -111,25 +113,26 @@ body {
     border-bottom: 1px solid gray;
 }
 
-.class-header-subtopic{
+.class-header-subtopic {
     font-size: 25px;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
     border-bottom: 1px solid gray;
 }
-.pass{
+
+.pass {
     text-align: center;
     font-size: 30px;
 }
 
-.class-section-button{
+.class-section-button {
     display: flex;
     justify-content: center;
     margin: 20px 0px 20px 0;
 }
 
-.know-more{
+.know-more {
     padding: 5px 5px 8px 5px;
     background-color: #003333;
     color: #fff;
@@ -138,7 +141,7 @@ body {
     border-radius: 5px;
 }
 
-.know-more:hover{
+.know-more:hover {
     padding: 5px 5px 8px 5px;
     background-color: #fff;
     color: #000;
@@ -146,3 +149,111 @@ body {
     height: 40px;
     border-radius: 5px;
 }
+
+
+#footer{
+    height: 100%;
+    width: 100%;
+}
+
+.footer-main{
+    background-color: #222222;
+    margin: 30px 0 0 0;
+}
+
+.footer-main-list{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.footer-main-list a{
+    text-decoration: none!important;
+}
+
+.footer-main-list li{
+    margin: 20px 30px 25px 30px;
+}
+
+.footer-main-list li:hover{
+    color: #C59F2E;
+}
+
+@media screen and (max-width: 910px) {
+    .middle-header h1 {
+        font-size: 40px;
+        margin: 30px 0 10px 10px;
+        color: #3C57A7;
+        text-align: center;
+    }
+
+    .middle-wrapper-main-subpart h1 {
+        font-size: 25px;
+    }
+
+    .middle-sub-header {
+        font-size: 35px;
+        text-align: center;
+        color: #fff;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .middle-header h1 {
+        font-size: 30px;
+        margin: 30px 0 10px 10px;
+        color: #3C57A7;
+        text-align: center;
+    }
+
+    .middle-wrapper-main-subpart h1 {
+        font-size: 20px;
+    }
+    .middle-sub-header {
+        font-size: 30px;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .middle-header h1 {
+        font-size: 20px;
+        margin: 30px 0 10px 10px;
+        color: #3C57A7;
+        text-align: center;
+    }
+
+    .middle-wrapper-main-subpart h1 {
+        font-size: 20px;
+    }
+
+    .middle-sub-header {
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        padding: 20px;
+    }
+
+}
+
+@media screen and (max-width: 300px) {
+    .middle-header h1 {
+        font-size: 20px;
+        margin: 30px 0 10px 10px;
+        color: #3C57A7;
+        text-align: center;
+    }
+
+    .middle-wrapper-main-subpart h1 {
+        font-size: 20px;
+    }
+}
+
