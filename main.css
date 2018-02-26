@@ -200,6 +200,23 @@ body {
     border-radius: 5px;
 }
 
+.SectionOne{
+    background-color: #C71037;
+    height: 100%;
+    width: auto;
+}
+
+
+.SectionOneInner{
+    display: flex;
+    justify-content: center;
+}
+
+.book{
+    outline: none;
+    border: none;
+}
+
 #footer {
     height: 100%;
     width: 100%;
