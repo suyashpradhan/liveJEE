@@ -7,7 +7,6 @@
 body {
     margin: 0;
     padding: 0;
-
 }
 
 .navBar {
@@ -200,21 +199,26 @@ body {
     border-radius: 5px;
 }
 
-.SectionOne{
-    background-color: #C71037;
-    height: 100%;
+.SectionOne {
+    height: auto;
     width: auto;
+    display: flex;
+    justify-content: flex-start;
 }
 
-
-.SectionOneInner{
+.SectionOneInnerSub {
     display: flex;
     justify-content: center;
 }
 
-.book{
-    outline: none;
-    border: none;
+.secondHalf {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.secondHalf h6, p {
+    text-align: center;
 }
 
 #footer {
