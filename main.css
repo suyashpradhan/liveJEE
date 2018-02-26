@@ -41,7 +41,7 @@ body {
 
 .bannerWrapperInfo {
     display: grid;
-    grid-template-columns: 250px 250px;
+    grid-template-columns: 300px 250px;
     grid-gap: 100px;
     grid-template-rows: 75px;
 }
@@ -53,7 +53,7 @@ body {
 .bannerWrapperInfoSub{
     display: grid;
     grid-template-columns: 300px 200px;
-    grid-gap: 50px;
+    grid-gap: 100px;
 }
 
 .bannerWrapperInfoSub h1 {
