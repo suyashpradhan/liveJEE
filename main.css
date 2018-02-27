@@ -59,7 +59,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .innerListText h6 {
@@ -80,13 +79,9 @@ body {
     width: 100%;
 }
 
-.middle-header {
-    height: 50px;
-}
-
 .middle-header h1 {
-    font-size: 50px;
-    margin: 50px 0 30px 10px;
+    font-size: 4vw;
+    margin: 50px 0 10px 0;
     color: #3C57A7;
     text-align: center;
     font-weight: 900;
@@ -101,7 +96,7 @@ body {
 }
 
 .middle-wrapper-main-subpart h1 {
-    font-size: 30px;
+    font-size: 3vw;
     margin: 40px 0 30px 10px;
     padding-top: 20px;
     color: #000;
@@ -204,6 +199,7 @@ body {
     width: auto;
     display: flex;
     justify-content: flex-start;
+    background-color: #C71037;
 }
 
 .SectionOneInnerSub {
@@ -211,15 +207,15 @@ body {
     justify-content: center;
 }
 
-.secondHalf {
-    display: block;
-    margin: 0;
-    padding: 0;
+.innerImage{
+    display: flex;
+    justify-content: center;
 }
 
-.secondHalf h6, p {
-    text-align: center;
+.secondHalf {
+    display: inline-block;
 }
+
 
 #footer {
     height: 100%;
@@ -272,16 +268,9 @@ body {
 }
 
 @media screen and (max-width: 910px) {
-    .middle-header h1 {
-        font-size: 40px;
-        margin: 50px 0 10px 10px;
-        color: #3C57A7;
-        text-align: center;
-    }
-
-    .middle-wrapper-main-subpart h1 {
-        font-size: 25px;
-    }
+    /*.middle-wrapper-main-subpart h1 {*/
+        /*font-size: 25px;*/
+    /*}*/
 
     .middle-sub-header {
         font-size: 35px;
@@ -308,16 +297,10 @@ body {
 }
 
 @media screen and (max-width: 700px) {
-    .middle-header h1 {
-        font-size: 30px;
-        margin: 50px 0 10px 10px;
-        color: #3C57A7;
-        text-align: center;
-    }
 
-    .middle-wrapper-main-subpart h1 {
-        font-size: 20px;
-    }
+    /*.middle-wrapper-main-subpart h1 {*/
+        /*font-size: 20px;*/
+    /*}*/
 
     .middle-sub-header {
         font-size: 30px;
@@ -334,16 +317,10 @@ body {
         align-items: center;
     }
 
-    .middle-header h1 {
-        font-size: 20px;
-        margin: 50px 0 10px 10px;
-        color: #3C57A7;
-        text-align: center;
-    }
 
-    .middle-wrapper-main-subpart h1 {
-        font-size: 20px;
-    }
+    /*.middle-wrapper-main-subpart h1 {*/
+        /*font-size: 20px;*/
+    /*}*/
 
     .middle-sub-header {
         font-size: 20px;
@@ -371,15 +348,14 @@ body {
 }
 
 @media screen and (max-width: 300px) {
-    .middle-header h1 {
-        font-size: 20px;
-        margin: 50px 0 10px 10px;
-        color: #3C57A7;
-        text-align: center;
-    }
 
-    .middle-wrapper-main-subpart h1 {
-        font-size: 20px;
+
+    /*.middle-wrapper-main-subpart h1 {*/
+        /*font-size: 20px;*/
+    /*}*/
+
+    .middle-wrapper-main-subpart h1{
+        font-size:4vw
     }
 
     .footer-main-list {
