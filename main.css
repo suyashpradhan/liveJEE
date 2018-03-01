@@ -222,7 +222,7 @@ body {
 .SectionTwo {
     background-color: #000;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 5px;
     height: 370px;
     border: 1px solid #000;
     margin-bottom: 30px;
@@ -302,7 +302,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 .footer-main-list {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     color: #ffffff;
     list-style: none;
@@ -326,7 +326,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 
 @media screen and (max-width: 1010px) {
     .footer-main-list {
-        font-size: 20px;
+        font-size: 18px;
         font-weight: 400;
         color: #ffffff;
         list-style: none;
@@ -359,7 +359,7 @@ input[type="text"], input[type="password"], input[type="email"] {
     }
 
     .footer-main-list {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         color: #ffffff;
         list-style: none;
@@ -406,7 +406,7 @@ input[type="text"], input[type="password"], input[type="email"] {
     }
 
     .footer-main-list {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         color: #ffffff;
         list-style: none;
@@ -425,13 +425,12 @@ input[type="text"], input[type="password"], input[type="email"] {
 
 @media screen and (max-width: 300px) {
 
-
     .middle-wrapper-main-subpart h1 {
         font-size: 4vw
     }
 
     .footer-main-list {
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         color: #ffffff;
         list-style: none;
@@ -445,7 +444,6 @@ input[type="text"], input[type="password"], input[type="email"] {
     .footer-main-list li {
         margin: 10px 10px 10px 10px;
     }
-
 }
 
 
