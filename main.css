@@ -204,6 +204,8 @@ body {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 30px;
     border-radius: 5px;
+    height: 370px;
+    border: 1px solid #C71037;
 }
 
 .SectionOne-Right-List {
@@ -221,6 +223,9 @@ body {
     background-color: #000;
     color: #fff;
     border-radius: 8px;
+    height: 370px;
+    border: 1px solid #000;
+    margin-bottom: 30px;
 }
 
 .innerSectionTwo h1 {
@@ -258,13 +263,27 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 .btnSchedule {
-    margin: 30px 0 10px 0;
-    background-color: #FFFF66;
-    color: #000;
+    margin: 50px 0 5px 0;
+    background-color: #901632;
+    color: #fff;
     font-weight: 600;
     border-radius: 5px;
-    padding: 10px;
-    border: 1px solid #003333;
+    padding: 5px;
+    width: 100px;
+    border: 1px solid #901632;
+}
+
+.innerSectionLast a{
+    text-align: center;
+    text-decoration: none;
+}
+
+.innerSectionLast a:hover{
+    text-align: center;
+    text-decoration: none;
+    background-color: #00CC00;
+    color: #fff;
+    border: 1px solid #00CC00;
 }
 
 .innerSectionLast h1 {
@@ -320,13 +339,18 @@ input[type="text"], input[type="password"], input[type="email"] {
     .footer-main-list li {
         margin: 20px 20px 25px 20px;
     }
+
 }
+
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+
+}
+
 
 @media screen and (max-width: 910px) {
 
-    /*.middle-wrapper-main-subpart h1 {*/
-    /*font-size: 25px;*/
-    /*}*/
+
     .middle-sub-header {
         font-size: 35px;
         text-align: center;
@@ -353,9 +377,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 
 @media screen and (max-width: 700px) {
 
-    /*.middle-wrapper-main-subpart h1 {*/
-    /*font-size: 20px;*/
-    /*}*/
+
     .middle-sub-header {
         font-size: 30px;
         text-align: center;
@@ -371,9 +393,11 @@ input[type="text"], input[type="password"], input[type="email"] {
         align-items: center;
     }
 
-    /*.middle-wrapper-main-subpart h1 {*/
-    /*font-size: 20px;*/
-    /*}*/
+    .prerequisiteCol{
+        display: none;
+    }
+
+
     .middle-sub-header {
         font-size: 20px;
         text-align: center;
@@ -401,9 +425,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 
 @media screen and (max-width: 300px) {
 
-    /*.middle-wrapper-main-subpart h1 {*/
-    /*font-size: 20px;*/
-    /*}*/
+
     .middle-wrapper-main-subpart h1 {
         font-size: 4vw
     }
@@ -425,4 +447,5 @@ input[type="text"], input[type="password"], input[type="email"] {
     }
 
 }
+
 
