@@ -41,11 +41,16 @@ body {
     font-size: 15px;
 }
 
+.fa-check {
+    font-size: 12px;
+    color: #2ecc71;
+}
+
 .prerequisiteSection {
     height: 100%;
     width: auto;
     background-color: #901632;
-    margin: 30px 0 20px 0;
+    margin: 30px 0 10px 0;
     border-radius: 5px;
 }
 
@@ -53,6 +58,7 @@ body {
     font-size: 20px;
     text-align: center;
     color: #fff;
+    padding: 5px 0 5px 0;
 }
 
 .innerList {
@@ -69,7 +75,7 @@ body {
 
 .innerListText h5 {
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: 15px;
     color: #fff;
 }
@@ -80,7 +86,7 @@ body {
 }
 
 .middle-header h1 {
-    font-size: 50px;
+    font-size: 55px;
     margin: 50px 0 10px 0;
     color: #3C57A7;
     text-align: center;
@@ -96,7 +102,7 @@ body {
 }
 
 .middle-wrapper-main-subpart h1 {
-    font-size: 35px;
+    font-size: 40px;
     margin: 40px 0 30px 10px;
     padding-top: 20px;
     color: #000;
@@ -112,9 +118,11 @@ body {
 .icon {
     width: 60px;
 }
-.myCol{
+
+.myCol {
     width: 30%;
 }
+
 .myCol h1 {
     display: block;
     font-size: 16px;
@@ -133,20 +141,21 @@ body {
 
 .middle-sub {
     display: block;
-    height: 100px;
+    height: auto;
+    width: 100%;
     background-color: #003333;
 }
 
 .middle-sub-header {
-    font-size: 35px;
+    font-size: 42px;
     text-align: center;
     color: #fff;
-    padding: 22px;
+    padding: 15px 0 15px 0;
 }
 
 .class-header {
     text-align: center;
-    margin: 30px 0 0 0;
+    margin: 20px 0 0 0;
     padding: 0;
     font-size: 50px;
 }
@@ -167,10 +176,6 @@ body {
     border-bottom: 1px solid gray;
 }
 
-.pass {
-    text-align: center;
-    font-size: 30px;
-}
 
 .class-section-button {
     display: flex;
@@ -301,7 +306,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 
 .footer-main {
     background-color: #222222;
-    margin: 30px 0 0 0;
+    margin: 0px 0 0 0;
 }
 
 .footer-main-list {
@@ -320,7 +325,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 .footer-main-list li {
-    margin: 20px 30px 25px 30px;
+    margin: 20px 20px 25px 30px;
 }
 
 .footer-main-list li:hover {
@@ -328,6 +333,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 @media screen and (max-width: 1010px) {
+
     .middle-header h1 {
         font-size: 35px;
         text-align: center;
@@ -356,6 +362,9 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 @media screen and (max-width: 910px) {
+    .prerequisiteCol {
+        display: none;
+    }
     .middle-header h1 {
         font-size: 30px;
         text-align: center;
@@ -391,6 +400,9 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 @media screen and (max-width: 700px) {
+    .prerequisiteCol {
+        display: none;
+    }
     .middle-header h1 {
         font-size: 25px;
         text-align: center;
@@ -410,6 +422,14 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 @media screen and (max-width: 500px) {
+    .innerColMain h1 {
+        font-size: 16px;
+    }
+
+    .innerColSub h1 {
+        font-size: 16px;
+    }
+
     .middle-header h1 {
         font-size: 22px;
         text-align: center;
@@ -418,12 +438,6 @@ input[type="text"], input[type="password"], input[type="email"] {
     .middle-wrapper-main-subpart h1 {
         font-size: 18px;
         text-align: center;
-    }
-
-    .navBar-logo {
-        display: flex;
-        justify-content: center;
-        align-items: center;
     }
 
     .prerequisiteCol {
@@ -456,6 +470,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 @media screen and (max-width: 500px) and (min-width: 350px) {
+
     .middle-header h1 {
         font-size: 18px;
         text-align: center;
