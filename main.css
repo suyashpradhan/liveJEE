@@ -176,7 +176,6 @@ body {
     border-bottom: 1px solid gray;
 }
 
-
 .class-section-button {
     display: flex;
     justify-content: center;
@@ -365,6 +364,7 @@ input[type="text"], input[type="password"], input[type="email"] {
     .prerequisiteCol {
         display: none;
     }
+
     .middle-header h1 {
         font-size: 30px;
         text-align: center;
@@ -403,6 +403,7 @@ input[type="text"], input[type="password"], input[type="email"] {
     .prerequisiteCol {
         display: none;
     }
+
     .middle-header h1 {
         font-size: 25px;
         text-align: center;
@@ -418,6 +419,22 @@ input[type="text"], input[type="password"], input[type="email"] {
         text-align: center;
         color: #fff;
         padding: 20px;
+    }
+
+    .footer-main-list {
+        font-size: 15px;
+        font-weight: 300;
+        color: #ffffff;
+        list-style: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        cursor: pointer;
+    }
+
+    .footer-main-list li {
+        margin: 10px 15px 10px 10px;
     }
 }
 
