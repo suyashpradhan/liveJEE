@@ -518,7 +518,6 @@ input[type="text"], input[type="password"], input[type="email"] {
     .footer-main-list li {
         margin: 10px 10px 10px 10px;
     }
-
 }
 
 @media screen and (max-width: 500px) and (min-width: 350px) {
