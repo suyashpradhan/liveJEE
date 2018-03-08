@@ -414,6 +414,10 @@ input[type="text"], input[type="password"], input[type="email"] {
         text-align: center;
     }
 
+    .know-more {
+        margin: 0;
+    }
+
     .middle-sub-header {
         font-size: 30px;
         text-align: center;
@@ -461,6 +465,10 @@ input[type="text"], input[type="password"], input[type="email"] {
         display: none;
     }
 
+    .know-more {
+        margin: 0;
+    }
+
     .middle-sub-header {
         font-size: 20px;
         text-align: center;
@@ -498,6 +506,10 @@ input[type="text"], input[type="password"], input[type="email"] {
         text-align: center;
     }
 
+    .know-more {
+        margin: 0;
+    }
+
     .SectionOne-Left img {
         height: 150px;
         width: auto;
@@ -526,6 +538,10 @@ input[type="text"], input[type="password"], input[type="email"] {
     .middle-wrapper-main-subpart h1 {
         font-size: 14px;
         text-align: center;
+    }
+
+    .know-more {
+        margin: 0;
     }
 
     .SectionOne-Left img {
