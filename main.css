@@ -29,16 +29,18 @@ body {
 .bannerImage {
     height: auto;
     max-width: 100%;
-    margin: 30px 0 30px 0;
+    margin: 60px 0 30px 0;
     padding: 0;
 }
 
 .innerColMain h1 {
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .innerColSub h1 {
-    font-size: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
 }
 
 .fa-check {
@@ -47,10 +49,10 @@ body {
 }
 
 .prerequisiteSection {
-    height: 100%;
+    height: 90%;
     width: auto;
     background-color: #901632;
-    margin: 30px 0 10px 0;
+    margin: 60px 0 10px 0;
     border-radius: 5px;
 }
 
@@ -58,7 +60,7 @@ body {
     font-size: 20px;
     text-align: center;
     color: #fff;
-    padding: 8px 0 0 0;
+    padding: 15px 0 10px 0;
 }
 
 .innerList {
@@ -75,18 +77,18 @@ body {
 
 .innerListText h5 {
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-size: 15px;
     color: #fff;
 }
 
 #middleWrapper {
-    height: 100%;
-    width: 100%;
+    height: auto;
+    width: auto;
 }
 
 .middle-header h1 {
-    font-size: 55px;
+    font-size: 60px;
     margin: 50px 0 10px 0;
     color: #3C57A7;
     text-align: center;
@@ -102,7 +104,7 @@ body {
 }
 
 .middle-wrapper-main-subpart h1 {
-    font-size: 40px;
+    font-size: 45px;
     margin: 40px 0 30px 10px;
     padding-top: 20px;
     color: #000;
@@ -147,8 +149,9 @@ body {
 }
 
 .middle-sub-header {
-    font-size: 42px;
+    font-size: 45px;
     text-align: center;
+    text-transform: uppercase;
     color: #fff;
     padding: 15px 0 15px 0;
 }
@@ -236,10 +239,12 @@ body {
 }
 
 .innerSectionTwo h1 {
-    font-size: 20px;
+    font-size: 22px;
     display: block;
     text-align: center;
     padding: 20px 0 0 0;
+    word-spacing: 2px;
+    text-transform: uppercase;
 }
 
 .innerSectionTwo h2 {
@@ -266,31 +271,32 @@ input[type="text"], input[type="password"], input[type="email"] {
 .innerSectionLast {
     display: flex;
     justify-content: center;
-    flex-direction: row;
 }
 
 .btnSchedule {
-    margin: 50px 0 5px 0;
     background-color: #901632;
     color: #fff;
     font-weight: 600;
     border-radius: 5px;
     padding: 5px;
-    width: 100px;
     border: 1px solid #901632;
+    grid-column: 2 / -1;
 }
 
-.innerSectionLast a {
+.fa-chevron-right{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+.btnSchedule {
     text-align: center;
     text-decoration: none;
 }
 
-.innerSectionLast a:hover {
+.btnSchedule:hover {
     text-align: center;
-    text-decoration: none;
-    background-color: #00CC00;
+    text-decoration: none !important;
     color: #fff;
-    border: 1px solid #00CC00;
 }
 
 .innerSectionLast h1 {
@@ -298,18 +304,13 @@ input[type="text"], input[type="password"], input[type="email"] {
     font-size: 20px;
 }
 
-#footer {
-    height: 100%;
-    width: 100%;
-}
-
 .footer-main {
     background-color: #222222;
-    margin: 0 0 0 0;
+    height: 100%;
 }
 
 .footer-main-list {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: #ffffff;
     list-style: none;
@@ -319,19 +320,26 @@ input[type="text"], input[type="password"], input[type="email"] {
     cursor: pointer;
 }
 
+.footer-main-last {
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+}
+
 .footer-main-list a {
     text-decoration: none !important;
 }
 
 .footer-main-list li {
-    margin: 20px 20px 25px 30px;
+    margin: 30px 20px 5px 30px;
 }
 
 .footer-main-list li:hover {
     color: #C59F2E;
 }
 
-/*********************** LOGIN PAGE CSS*************************/
+/*!*********************** LOGIN PAGE CSS*************************!
 
 #bodyWrapper{
     height: 100%;
@@ -357,7 +365,7 @@ input[type="text"], input[type="password"], input[type="email"] {
     background-color: #ccc;
 }
 
-/**************************END'S HERE****************************/
+!**************************END'S HERE****************************!*/
 @media screen and (max-width: 1010px) {
 
     .middle-header h1 {
