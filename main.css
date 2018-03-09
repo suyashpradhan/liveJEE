@@ -635,4 +635,26 @@ input[type="text"], input[type="password"], input[type="email"] {
     }
 }
 
+/********************IX PAGE SECTION*******************/
+.bodyWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.bodyWrapper h1 {
+    margin: 30px 0 30px 0;
+    font-size: 40px;
+    word-spacing: 2px;
+}
+
+.bodyWrapperImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-banner {
+    height: auto;
+    width: 100%;
+}
