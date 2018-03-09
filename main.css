@@ -11,19 +11,20 @@ body {
 
 .navBar {
     background-color: #231F20;
-    height: 75px;
+    height: 80px;
     margin: 0;
     padding: 0;
 }
 
 .navBar-logo {
-    display: inline;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .navBar-logo-image {
     height: 45px;
-    margin: 12px;
-    width: 180px;
+    margin: 15px 0 15px 5px;
+    width: 170px;
 }
 
 .bannerImage {
@@ -212,7 +213,7 @@ body {
     background-color: #C71037;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     border-radius: 5px;
     height: 370px;
     border: 1px solid #C71037;
@@ -235,7 +236,7 @@ body {
     border-radius: 5px;
     height: 370px;
     border: 1px solid #000;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .innerSectionTwo h1 {
@@ -274,20 +275,21 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 .btnSchedule {
-    background-color: #901632;
-    color: #fff;
+    background-color: #00CC00;
+    color: #000;
     font-weight: 600;
     border-radius: 5px;
     padding: 5px;
-    border: 1px solid #901632;
+    border: 1px solid #00CC00;
     grid-column: 2 / -1;
 }
 
-.fa-chevron-right{
+.fa-chevron-right {
     font-size: 12px;
     padding: 0;
     margin: 0;
 }
+
 .btnSchedule {
     text-align: center;
     text-decoration: none;
@@ -307,6 +309,25 @@ input[type="text"], input[type="password"], input[type="email"] {
 .footer-main {
     background-color: #222222;
     height: 100%;
+}
+
+.SectionOneLast {
+    font-size: 22px;
+    text-align: center;
+}
+
+.SectionOneLast {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
+}
+
+.SectionTwoLast {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #000;
 }
 
 .footer-main-list {
