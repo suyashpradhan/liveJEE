@@ -196,7 +196,6 @@ body {
     margin-bottom: 20px;
 }
 
-
 #lastWrapper {
     background-color: #38CFD1;
 }
@@ -346,7 +345,7 @@ input[type="text"], input[type="password"], input[type="email"] {
 }
 
 .footer-main-list li {
-    margin: 30px 20px 5px 30px;
+    margin: 20px 20px 5px 30px;
 }
 
 .footer-main-list li:hover {
@@ -449,7 +448,7 @@ tbody {
 
 /*******MODAL CSS**************/
 
-.modal-title{
+.modal-title {
     text-align: center;
     font-size: 20px;
 }
@@ -473,29 +472,31 @@ tbody {
     border: none;
     color: red;
 }
-.modalBtn:hover{
+
+.modalBtn:hover {
     background: none;
     border: none;
     color: red;
     text-decoration: underline;
 }
 
-.modal-list{
+.modal-list {
     margin: 10px;
 }
-.modal-list li{
+
+.modal-list li {
     margin: 10px;
     font-size: 16px;
 }
 
-.schedule-form{
+.schedule-form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.btnSubmit{
+.btnSubmit {
     background-color: #27ae60;
     color: #fff;
     padding: 5px;
@@ -503,7 +504,7 @@ tbody {
     width: 100px;
 }
 
-.field1{
+.field1 {
     border-radius: 2px;
     border: 1px solid #000;
     color: #000;
@@ -511,8 +512,226 @@ tbody {
     width: 220px;
 }
 
-
 /**********************END'S HERE***************************/
+
+/*Footer Css*/
+.col-1-of-2 {
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+}
+
+.col-1-of-2 h1 {
+    margin: 30px 0 10px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 900;
+}
+
+.innercol {
+    height: auto;
+    width: auto;
+    margin-bottom: 150px;
+}
+
+.innercol p {
+    font-size: 18px;
+    word-spacing: 2px;
+    margin-top: 30px;
+}
+
+.innercol span {
+    font-weight: 900;
+}
+
+.join-col-header {
+    height: auto;
+    width: auto;
+}
+
+.join-col-header h1 {
+    margin: 30px 0 10px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 900;
+}
+
+.join-para {
+    font-size: 18px;
+}
+
+.join-top h1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.join-sub-topic {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.directorSection {
+    height: auto;
+    width: auto;
+}
+
+.directorSection h1 {
+    font-size: 50px;
+    color: #666;
+    margin: 50px 0 30px 0;
+    font-weight: 400;
+}
+
+.directorSection h2, h3 {
+    font-size: 20px;
+}
+
+.directorSection h3 {
+    font-size: 20px;
+}
+
+.directorSection p {
+    height: auto;
+    width: auto;
+    margin: 20px 0 20px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.directorSection span {
+    font-weight: 900;
+}
+
+.teamSection {
+    height: auto;
+    width: auto;
+}
+
+.teamImage {
+    margin: 20px 0 20px 0;
+}
+
+.teamSection h1 {
+    font-size: 50px;
+    color: #666;
+    margin: 40px 0 20px 0;
+    font-weight: 400;
+}
+
+.teamSection p {
+    font-size: 18px;
+    margin: 15px 0 15px 0;
+    text-align: justify;
+}
+
+.privacy-col-header {
+    height: auto;
+    width: auto;
+}
+
+.privacy-col-header h1 {
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 900;
+}
+
+.privacy-para {
+    font-size: 18px;
+}
+
+.privacy-top h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin: 20px 0 20px 0;
+}
+
+.privacy-sub-topic p {
+    font-size: 18px;
+    text-align: justify;
+}
+
+.privacy-sub-topic li {
+    list-style: none;
+    margin: 0 0 10px 10px;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.privacy-sub-topic h1 {
+    font-size: 22px;
+}
+
+.privacy-sub-topic a {
+    color: #31CED5;
+}
+
+.privacy-sub-topic a:hover {
+    color: #666;
+}
+
+.privacy-sub-topic h2 {
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+.disc-col-header h1 {
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 900;
+}
+
+.disc-para p {
+    margin: 10px 0 10px 0;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.disc-para span {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.contact-col-header {
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 900;
+}
+
+.contactSection h1 {
+    font-size: 18px;
+    margin: 10px 0 10px 20px;
+}
+
+.faq-col-header h1 {
+    margin: 30px 0 20px 0;
+    font-size: 40px;
+    color: #666666;
+    font-weight: 700;
+}
+
+.faq-header {
+    font-size: 22px;
+    font-weight: 900;
+    margin: 10px 0 10px 0;
+}
+
+.faq-answer {
+    font-size: 18px;
+    margin: 10px 0 30px 0;
+    text-align: justify;
+}
+
+.faq-answer li{
+    list-style: none;
+    margin: 10px 0 10px 30px;
+}
+
+/***********************************************/
 
 @media screen and (max-width: 1010px) {
 
