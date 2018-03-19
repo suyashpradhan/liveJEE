@@ -14,11 +14,8 @@ body {
     height: 80px;
     margin: 0;
     padding: 0;
-}
-
-.navBar-logo {
-    display: flex;
-    justify-content: flex-start;
+    display: grid;
+    grid-template-columns: 1fr auto;
 }
 
 .navBar-logo-image {
@@ -26,6 +23,11 @@ body {
     margin: 15px 0 15px 5px;
     width: 170px;
 }
+
+.login{
+    margin: 20px 40px 20px 0;
+}
+
 
 .bannerImage {
     height: auto;
