@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     font-family: Poppins;
@@ -58,7 +58,7 @@ nav div {
     display: none;
 }
 
-@media(max-width: 768px) {
+@media (max-width: 768px) {
     nav div {
         display: block;
     }
