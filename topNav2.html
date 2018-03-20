@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+<body>
+<div id="header">
+    <div class="navBar">
+        <div class="navBar-logo">
+            <img src="img/logo.png" alt="JEE" class="navBar-logo-image">
+        </div>
+    </div>
+</div>
+<nav>
+    <div>
+        <i class="fas fa-bars"></i>
+    </div>
+    <ul>
+        <li><a href="#">Courses <i class="fas fa-caret-down"></i></a>
+            <ul>
+                <li><a href="#">Course 1 </a></li>
+                <li><a href="#">Course 2</a></li>
+                <li><a href="#">Course 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Schedule Demo</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">Login</a></li>
+    </ul>
+</nav>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="http://code.jquery.com/jquery-3.3.1.js"></script>
+<script>
+    $("nav div").click(function() {
+        $("ul").slideToggle();
+        $("ul ul").css("display", "none");
+    });
+
+    $("ul li").click(function() {
+        $("ul ul").slideUp();
+        $(this).find('ul').slideToggle();
+    });
+
+    $(window).resize(function() {
+        if($(window).width() > 768) {
+            $("ul").removeAttr('style');
+        }
+    });
+</script>
+</body>
+</html>

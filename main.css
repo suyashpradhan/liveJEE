@@ -24,10 +24,9 @@ body {
     width: 170px;
 }
 
-.login{
+.login {
     margin: 20px 40px 20px 0;
 }
-
 
 .bannerImage {
     height: auto;
@@ -804,7 +803,6 @@ tbody {
     .footer-main-list li {
         margin: 18px 18px 18px 18px;
     }
-
 }
 
 @media screen and (max-width: 700px) {
@@ -824,6 +822,25 @@ tbody {
     .middle-wrapper-main-subpart h1 {
         font-size: 20px;
         text-align: center;
+    }
+
+    nav div {
+        display: block!important;
+    }
+
+    ul {
+        display: none;
+        position: static;
+        background-color: #e3e3e3;
+    }
+
+    ul li {
+        display: block;
+    }
+
+    ul ul {
+        position: static;
+        background-color: #e3e3e3;
     }
 
     .know-more {
@@ -871,6 +888,7 @@ tbody {
         font-size: 22px;
         text-align: center;
     }
+
 
     .middle-wrapper-main-subpart h1 {
         font-size: 18px;
@@ -925,6 +943,10 @@ tbody {
         text-align: center;
     }
 
+    .toggle {
+        display: block !important;
+    }
+
     .know-more {
         margin: 0;
     }
@@ -955,6 +977,10 @@ tbody {
     .middle-header h1 {
         font-size: 15px;
         text-align: center;
+    }
+
+    .toggle {
+        display: block !important;
     }
 
     .middle-wrapper-main-subpart h1 {
@@ -1005,4 +1031,5 @@ tbody {
         margin: 10px 10px 10px 10px;
     }
 }
+
 
