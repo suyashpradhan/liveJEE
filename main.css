@@ -823,26 +823,7 @@ tbody {
         font-size: 20px;
         text-align: center;
     }
-
-    nav div {
-        display: block!important;
-    }
-
-    ul {
-        display: none;
-        position: static;
-        background-color: #e3e3e3;
-    }
-
-    ul li {
-        display: block;
-    }
-
-    ul ul {
-        position: static;
-        background-color: #e3e3e3;
-    }
-
+    
     .know-more {
         margin: 0;
     }
