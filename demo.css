@@ -1,0 +1,50 @@
+#pageWrapper {
+    height: auto;
+    width: auto;
+    overflow-x: hidden;
+}
+
+.page-wrapper-section {
+    height: auto;
+    width: auto;
+    background-color: #EAECEE;
+}
+
+.header-inner-main {
+    margin: 0 0 20px 40px;
+}
+
+.header-sub {
+    font-size: 30px;
+    display: block;
+    font-weight: 400;
+    color: #616A6B;
+}
+
+.header-subu-two {
+    font-size: 50px;
+    font-weight: 900;
+    display: block;
+    text-transform: uppercase;
+    color: #616A6B;
+}
+
+.myRow {
+    height: auto;
+    width: auto;
+    margin: 10px !important;
+}
+
+.section-header {
+    font-size: 20px;
+    text-align: left;
+}
+
+.section-paragraph {
+    font-size: 14px;
+}
+
+.image-wrapper {
+    height: 200px;
+    width: auto;
+}

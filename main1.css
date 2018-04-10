@@ -572,15 +572,14 @@ tbody {
 
 .formWrapperMain {
     background-color: #FDCC09;
+    height: auto;
 }
 
 .formHeader {
-    font-size: 24px;
+    font-size: 22px;
     color: #777;
     font-weight: 900;
-    padding: 5px;
-    margin: 5px 0 5px 20px;
-    text-align: left !important;
+    margin: 20px 20px 10px 3px;
 }
 
 .formWrapper {
@@ -588,39 +587,40 @@ tbody {
     height: auto;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     background-color: #FDCC09;
     padding-top: 5px;
 }
 
 input[type="text"], input[type="email"] {
-    margin: 10px 5px 30px 5px;
     padding: 2px 0 2px 3px;
     border-radius: 3px;
+    margin: 20px 5px 30px 5px;
 }
 
 .name {
-    width: 200px;
+    width: 150px;
 }
 
 .phone-number {
-    width: 200px;
+    width: 150px;
 }
 
 .email-address {
-    width: 200px;
+    width: 150px;
 }
 
 .class-option {
-    width: 200px;
+    width: 150px;
     padding: 2px 0 2px 3px;
     border: 1px solid #000;
+    border-radius: 3px;
 }
 
 .btn-submit {
     background-color: #003333;
     border-radius: 100px;
-    width: 100px;
+    width: 150px;
     padding: 2px 2px;
     border: 1px solid #003333;
     color: #fff;
@@ -876,9 +876,34 @@ input[type="text"], input[type="email"] {
         margin: 20px 20px 25px 20px;
     }
 
+    .formWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .name {
+        width: 180px;
+    }
+
+    .phone-number {
+        width: 180px;
+    }
+
+    .email-address {
+        width: 180px;
+    }
+
+    .class-option {
+        width: 180px;
+    }
+
+    .btn-submit {
+        width: 150px;
+    }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 1010px) and (min-width: 910px) {
     .header h1 {
         font-size: 30px;
     }
@@ -919,6 +944,32 @@ input[type="text"], input[type="email"] {
         margin: 18px 18px 18px 18px;
     }
 
+    .formWrapper {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .name {
+        width: 160px;
+    }
+
+    .phone-number {
+        width: 160px;
+    }
+
+    .email-address {
+        width: 160px;
+    }
+
+    .class-option {
+        width: 160px;
+    }
+
+    .btn-submit {
+        width: 130px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -970,6 +1021,7 @@ input[type="text"], input[type="email"] {
     .loginModal {
         display: none !important;
     }
+
 }
 
 @media screen and (max-width: 500px) {
@@ -1285,7 +1337,6 @@ input[type="text"], input[type="email"] {
 
 .cancelBtn:hover {
     opacity: .8;
-
 }
 
 .formSection {
@@ -1432,7 +1483,6 @@ input[type="text"], input[type="email"] {
 
     .cancelBtn:hover {
         opacity: .8;
-
     }
 
     .formSection {
@@ -1483,4 +1533,40 @@ input[type="text"], input[type="email"] {
         display: none !important;
     }
 }
+
+@media screen and (max-width: 1050px) and (min-width: 700px) {
+    .formWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .formHeader {
+        text-align: center;
+    }
+
+    .name {
+        width: 140px;
+    }
+
+    .phone-number {
+        width: 120px;
+    }
+
+    .email-address {
+        width: 120px;
+    }
+
+    .class-option {
+        width: 120px;
+    }
+
+    .btn-submit {
+        width: 100px;
+    }
+}
+
+
 
