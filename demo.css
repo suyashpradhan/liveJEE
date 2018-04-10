@@ -1,50 +1,54 @@
-#pageWrapper {
-    height: auto;
-    width: auto;
-    overflow-x: hidden;
+.pageWrapper {
+    background-color: #777;
 }
 
-.page-wrapper-section {
-    height: auto;
-    width: auto;
-    background-color: #EAECEE;
+.sectionWrapper-main {
+    max-width: 100%;
+    margin: 40px 0 auto 0;
+    display: flex;
 }
 
-.header-inner-main {
-    margin: 0 0 20px 40px;
+.sections {
+    padding: 10px;
+    margin: 10px 20px 0 10px;
+    flex: 1;
+    text-align: justify-all;
 }
 
-.header-sub {
-    font-size: 30px;
-    display: block;
-    font-weight: 400;
-    color: #616A6B;
+.sectionHead {
+    font-size: 22px;
 }
 
-.header-subu-two {
-    font-size: 50px;
-    font-weight: 900;
-    display: block;
-    text-transform: uppercase;
-    color: #616A6B;
+.sectionPara {
+    font-size: 16px;
+    color: #fff;
 }
 
-.myRow {
-    height: auto;
-    width: auto;
-    margin: 10px !important;
+.section-first-half{
+    display: inline;
+    margin: 20px;
 }
 
-.section-header {
-    font-size: 20px;
-    text-align: left;
+.sectionWrapper-main-img{
+   height: 300px;
+   width: auto;
 }
 
-.section-paragraph {
-    font-size: 14px;
+.section-second-half{
+    display: flex;
+    justify-content: center;
 }
 
-.image-wrapper {
-    height: 200px;
-    width: auto;
+
+@media screen and (max-width: 768px) and (min-width: 10px) {
+    .sectionWrapper-main {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    .sectionWrapper-main-img{
+        height: 150px;
+        width: auto;
+    }
+
 }
