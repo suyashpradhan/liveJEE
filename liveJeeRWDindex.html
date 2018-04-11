@@ -14,7 +14,6 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
           integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css"/>
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <!-- <script type="text/javascript">
@@ -203,10 +202,8 @@
                     <h5>(Any Resolution)</h5>
                 </div>
             </div>
-
         </div>
     </div>
-
 </div>
 <div id="middleWrapper">
     <div class="middle-header">
@@ -302,7 +299,7 @@
     <h1 class="middle-sub-header"><a href="comparison.php" class="comparison" style="color:#FFF;">Comparison between
         Physical vs Digital vs Live</a></h1>
 </div>
-<div class="class-section" style="background-color: #FFFFE0;">
+<!--<div class="class-section" style="background-color: #FFFFE0;">
     <div class="row justify-content-center no-gutters">
         <div class=" col-xs-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
             <h1 class="class-header">Class</h1>
@@ -356,8 +353,66 @@
             </div>
         </div>
     </div>
+</div>-->
+<div class="videoSection" style="background-color:#666">
+    <div class="container">
+        <div class="class-section" style="background-color:#666; color:#FFF; ">
+            <div class="row justify-content-center">
+                <div class=" col-xs-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                    <h1 class="class-header">Class</h1>
+                    <h1 class="class-header-symbol">IX</h1>
+                    <h1 class="class-header-subtopic">Orientation</h1>
+                    <div class="class-section-button">
+                        <a href="jee-online-coaching-for-class-9.php">
+                            <button class="know-more">Know More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                    <h1 class="class-header">Class</h1>
+                    <h1 class="class-header-symbol">X</h1>
+                    <h1 class="class-header-subtopic">Orientation</h1>
+                    <div class="class-section-button">
+                        <a href="jee-online-coaching-for-class-10.php">
+                            <button class="know-more" type="button">Know More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                    <h1 class="class-header">Class</h1>
+                    <h1 class="class-header-symbol">XI</h1>
+                    <h1 class="class-header-subtopic">Orientation</h1>
+                    <div class="class-section-button">
+                        <a href="jee-online-coaching-for-class-11.php">
+                            <button class="know-more" type="button">Know More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-xs-12 col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                    <h1 class="class-header">Class</h1>
+                    <h1 class="class-header-symbol">XII</h1>
+                    <h1 class="class-header-subtopic">Target</h1>
+                    <div class="class-section-button">
+                        <a href="jee-online-coaching-for-class-12.php">
+                            <button class="know-more" type="button">Know More</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 col-md-5 col-lg-3 col-xl-3">
+                    <h1 class="class-header" style="text-align: center">Class</h1>
+                    <h1 class="class-header-symbol" style="text-align: center">XII <span
+                            style="font-size: 20px;display: inline;margin: 0;padding: 0">PASS</span></h1>
+                    <h1 class="class-header-subtopic">Target</h1>
+                    <div class="class-section-button">
+                        <a href="jee-online-coaching-for-class-12-repeater.php">
+                            <button class="know-more" type="button">Know More</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<!--
 <div id="lastWrapper">
     <div class="container">
         <div class="row justify-content-center">
@@ -398,21 +453,19 @@
                         <h2>A DEMO</h2>
                     </div>
                     <div class="innerSectionForm">
-                        <select name="courses" id="courses"
-                                style="background-color: #FFFF66;border: 1px solid #000;color: #000;border-radius: 2px">
-                            <option selected="selected" disabled="disabled">Select Class</option>
-                            <option value="class_ix">Class IX</option>
-                            <option value="class_x">Class X</option>
-                            <option value="class_xi">Class XI</option>
-                            <option value="class_xii">Class XII</option>
-                            <option value="class_xii_p">Class XII(Pass)</option>
+                        <select class="innerSectionForm-select">
+                            <option value="Class IX">Class IX</option>
+                            <option value="Class X">Class X</option>
+                            <option value="Class XI">Class XI</option>
+                            <option value="Class XII">Class XII</option>
                         </select>
                         <input type="text" id="name" placeholder="Name" name="name" title="Enter Your Name"
+                               class="uName"
                                required>
-                        <input type="email" id="phone" placeholder="Mobile Number" name="phone"
+                        <input type="email" id="phone" placeholder="Mobile Number" name="phone" class="uPass"
                                style="line-height:20px; border-radius:5px;" pattern="[0-9]{10}"
                                title="Enter 10 digit Number" required>
-                        <input type="text" id="email" placeholder="Email Id" name="email_id"
+                        <input type="text" id="email" placeholder="Email Id" name="email_id" class="uEmail"
                                title="Enter Your Email Id" required
                                style="line-height:20px; border-radius:5px;">
                         <input type="button" id="schedule_demo" name="schedule_demo" onclick="schedule_demo()"
@@ -423,7 +476,38 @@
             </div>
         </div>
     </div>
-</div>-->
+</div>
+<div class="videoSection" style="background-color:#fff">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <h1 style="font-size: 25px; color: #333; font-weight: 900; margin: 25px 0 25px 0; text-transform: uppercase;text-align:left; border-radius: 15px">
+                    Recording of Live Lecture</h1>
+                <div class="videoWrapper">
+                    <!-- Copy & Pasted from YouTube -->
+                    <video src="http://www.livejee.com/video/demo.mp4" width="530" controls
+                           style=" width: 100%;height: auto;"></video>
+                </div>
+                <!-- <div class="sample">
+                     <button type="button" class="sampleButton"><a href="http://www.domain-education.com/flip_book/index.php?id=p2" target="_blank">View Sample Content</a></button>
+                 </div> -->
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col-xl-6">
+                <h1 style="font-size: 25px; color: #333; font-weight: 900; margin: 25px 0 25px 0; text-transform: uppercase;text-align:left; border-radius: 15px">
+                    How System Works !!!</h1>
+
+                <div class="videoWrapper">
+                    <!-- Copy & Pasted from YouTube -->
+                    <video src="http://www.livejee.com/video/JEE.mp4" width="530" controls style=" width: 100%;height: auto;"></video>
+                </div>
+                <!--<div class="videoSection">
+                    <video src="http://www.livejee.com/video/JEE.mp4" width="400" controls>
+                    </video>
+                </div>-->
+            </div>
+        </div>
+    </div>
+</div>
 <div class="formWrapperMain">
     <div class="formWrapper">
         <h1 class="formHeader">CONTACT FORM</h1>
@@ -439,6 +523,67 @@
             </select>
             <button class="btn-submit">Submit</button>
         </form>
+    </div>
+</div>
+<div class="pageWrapper">
+    <div class="container">
+        <h1 class="sectionHeader">
+            <span class="sectionHeader-main">The STUDY MATERIAL </span>
+            <span class="sectionHeader-sub">CONQUER JEE 3D</span>
+        </h1>
+        <div class="sectionWrapper-main">
+            <div class="sections">
+                <h2 class="sectionHead">Daily Practice Problem Sheets</h2>
+                <p class="sectionPara">The NCERT Textbooks are the most authentic source for conceptual
+                    understanding and focused coverage of syllabi of Class XI/XII
+                    Boards. Though the Textbooks are one of the most prolific works by
+                    experts, but in many cases, some students find the book content
+                    tough to comprehend. In Conquer Series the endeavour is to restructure
+                    the content in such a way that understanding of concepts and
+                    memorization, wherever required, becomes easier for the students,
+                    without compromising on the authenticity of the Content.</p>
+            </div>
+            <div class="sections">
+                <h2 class="sectionHead">Tutorial Sheets</h2>
+                <p class="sectionPara">On top of it Conquer Series have added Video Lectures of selected
+                    topics, Animations & Digital 3D Models to enhance the learning Experience
+                    using a Mobile App. The topics for the same have been carefully
+                    selected to overcome the limitation of learning through books, in cases, where
+                    the comprehension of complex concepts, visualization of processes & 3D struc-</p>
+            </div>
+            <div class="sections">
+                <h2 class="sectionHead">Lessons with Solved Examples</h2>
+                <p class="sectionPara">On top of it Conquer Series have added Video Lectures of selected
+                    topics, Animations & Digital 3D Models to enhance the learning Experience
+                    using a Mobile App. The topics for the same have been carefully
+                    selected to overcome the limitation of learning through books, in cases, where
+                    the comprehension of complex concepts, visualization of processes & 3D struc-</p>
+            </div>
+        </div>
+
+        <div class="row justify-content-center no-gutters">
+            <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                <div class="imageWrapper">
+                    <img src="img/android.PNG" alt="" class="banner-image">
+                </div>
+            </div>
+            <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <h1 class="appHeader">App Powered Booklets <img src="img/an.png" alt="" height="60px" class="android"></h1>
+                <ul class="inner-wrapper-list">
+                    <li><img src="img/video.png" alt="video" height="80px"><br><br><h4
+                            style="text-align: center;font-size: 16px;color: #777">Lectures</h4></li>
+                    <li><img src="img/animated.png" alt="" height="80px"><br><br><h4
+                            style="text-align: center;font-size: 16px;color: #777">Animations</h4></li>
+                    <li><img src="img/3D.png" alt="" height="80px"><br><br><h4
+                            style="text-align: center;font-size: 16px;color: #777">Lectures</h4></li>
+                    <li><img src="img/QR.png" alt="" height="80px"><br><br><h4
+                            style="text-align: center;font-size: 16px;color: #777">QR Code</h4></li>
+                </ul>
+            </div>
+        </div>
+        <div class="sampleContentSection">
+            <button type="submit" class="sampleBtn" id="sampleBtn">CLICK TO SEE SAMPLE</button>
+        </div>
     </div>
 </div>
 <div id="footer">

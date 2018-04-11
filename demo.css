@@ -1,5 +1,21 @@
 .pageWrapper {
-    background-color: #777;
+    background-color: #CCCDCB;
+    overflow: hidden;
+    width: 100%;
+    font-family: "Abadi MT Condensed";
+}
+
+.sectionHeader {
+    margin: 20px;
+}
+
+.sectionHeader-main {
+    display: block;
+    font-size: 20px;
+}
+
+.sectionHeader-sub {
+    font-size: 50px;
 }
 
 .sectionWrapper-main {
@@ -10,7 +26,7 @@
 
 .sections {
     padding: 10px;
-    margin: 10px 20px 0 10px;
+    margin: 10px 20px 0 0;
     flex: 1;
     text-align: justify-all;
 }
@@ -24,31 +40,67 @@
     color: #fff;
 }
 
-.section-first-half{
+.section-first-half {
     display: inline;
     margin: 20px;
 }
 
-.sectionWrapper-main-img{
-   height: 300px;
-   width: auto;
+.sectionWrapper-main-img {
+    height: 300px;
+    width: auto;
 }
 
-.section-second-half{
+.section-second-half {
     display: flex;
     justify-content: center;
 }
 
+.banner-image {
+    height: 300px;
+    width: auto;
+    margin: 20px 0 20px 50px;
+}
+
+.inner-wrapper-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.inner-wrapper-list li {
+    margin-right: 80px;
+    list-style: none;
+}
 
 @media screen and (max-width: 768px) and (min-width: 10px) {
+
     .sectionWrapper-main {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
-    .sectionWrapper-main-img{
+
+    .sectionWrapper-main-img {
         height: 150px;
         width: auto;
     }
 
+    .banner-image {
+        height: 150px;
+        max-width: 100%;
+        margin: 10px;
+    }
+
+    .inner-wrapper-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-grow: 1;
+    }
+
+    .inner-wrapper-list li {
+        list-style: none;
+    }
 }
