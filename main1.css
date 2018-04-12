@@ -1919,7 +1919,6 @@ tbody {
 }
 
 @media screen and (max-width: 576px) and (min-width: 10px) {
-
     .form-wrapper {
         background-color: #FDCD2F;
         height: auto;
