@@ -604,24 +604,23 @@ tbody {
     height: auto;
 }
 
-.formHeader {
-    font-size: 22px;
-    color: #777;
-    font-weight: 900;
-    margin: 5px 20px 10px 5px;
-    padding: 0;
-}
-
 .formWrapper {
     width: 100%;
     height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    flex-wrap: nowrap;
     background-color: #FDCC09;
     padding-top: 30px;
     padding-bottom: 30px;
+}
+
+.formHeader {
+    font-size: 22px;
+    color: #777;
+    font-weight: 900;
+    margin: 5px 20px 10px 5px;
+    padding: 0;
 }
 
 .name {
@@ -652,17 +651,6 @@ tbody {
     border-radius: 3px;
     height: 35px;
     margin-right: 8px;
-}
-
-.btn-submit {
-    background-color: #003333;
-    border-radius: 100px;
-    width: 150px;
-    padding: 2px 2px;
-    border: 1px solid #003333;
-    color: #fff;
-    cursor: pointer;
-    margin: 0 10px 0 10px;
 }
 
 /**********************END'S HERE***************************/
@@ -1259,7 +1247,7 @@ tbody {
     position: absolute;
     background-color: #f9f9f9;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
     z-index: 991;
 }
 
@@ -1577,7 +1565,6 @@ tbody {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        flex-wrap: wrap;
     }
 
     .formHeader {
@@ -1609,7 +1596,6 @@ tbody {
     background-color: #CCCDCB;
     overflow: hidden;
     width: 100%;
-    font-family: "Abadi MT Condensed";
 }
 
 .sectionHeader {
@@ -1761,5 +1747,208 @@ tbody {
 
     .imageWrapper {
         display: none;
+    }
+}
+
+.form-wrapper {
+    background-color: #FDCD2F;
+    height: 90px;
+    width: auto;
+}
+
+.contact-form-header {
+    font-size: 28px;
+    font-weight: 900;
+    color: #777;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(6, 200px);
+    grid-gap: 20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.user-name {
+    height: 30px;
+}
+
+.user-phone-number {
+    height: 30px;
+}
+
+.user-email-address {
+    height: 30px;
+}
+
+.user-class-option {
+    height: 30px;
+}
+
+.btn-submit {
+    background-color: #003333;
+    border-radius: 100px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #003333;
+    color: #fff;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 526px) and (min-width: 10px) {
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header {
+        text-align: center;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 10px 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 526px) and (min-width: 10px) {
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header {
+        text-align: center;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 10px 10px 20px 10px;
+    }
+}
+
+@media screen and (max-width: 10000px) and (min-width: 1400px) {
+    .contact-form-header-none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1400px) and (min-width: 900px) {
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header-none {
+        display: none;
+    }
+
+    .contact-form-header {
+        font-size: 22px;
+        font-weight: 900;
+        color: #777;
+        padding: 5px 0 5px 5px;
+    }
+
+    .contact-form {
+        grid-template-columns: 150px 150px 150px 150px 150px 80px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 700px) {
+
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header-none {
+        font-size: 22px;
+        font-weight: 900;
+        color: #777;
+        padding: 5px 0 5px 5px;
+    }
+
+
+    .contact-form-header {
+        display: none;
+    }
+
+    .contact-form {
+        grid-template-columns: 120px 120px 120px 100px 80px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 576px) {
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header-none {
+        font-size: 22px;
+        font-weight: 900;
+        color: #777;
+        padding: 5px 0 5px 5px;
+    }
+
+    .contact-form-header {
+        display: none;
+    }
+
+    .contact-form {
+        grid-template-columns: 120px 120px 120px 100px 80px;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+}
+
+@media screen and (max-width: 576px) and (min-width: 10px) {
+
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header-none {
+        display: block;
+        font-size: 22px;
+        font-weight: 900;
+        color: #777;
+        padding: 5px 0 5px 5px;
+    }
+
+    .contact-form-header {
+        display: none;
+    }
+
+    .contact-form {
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 15px;
+    }
+
+    .sectionHeader-main {
+        font-size: 20px;
+    }
+
+    .sectionHeader-sub {
+        font-size: 28px;
     }
 }
