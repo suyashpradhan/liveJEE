@@ -1825,6 +1825,12 @@ tbody {
     }
 }
 
+@media screen and (max-width: 10000px) and (min-width: 1400px) {
+    .contact-form-header-none {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1400px) and (min-width: 900px) {
     .form-wrapper {
         background-color: #FDCD2F;
@@ -1844,7 +1850,7 @@ tbody {
     }
 
     .contact-form {
-        grid-template-columns: 150px 150px 150px 150px 80px;
+        grid-template-columns: 150px 150px 150px 150px 150px 80px;
         justify-content: center;
         align-items: center;
         padding-bottom: 50px;
