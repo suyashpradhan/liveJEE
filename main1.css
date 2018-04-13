@@ -1865,34 +1865,6 @@ tbody {
 }
 
 @media screen and (max-width: 900px) and (min-width: 700px) {
-
-    .form-wrapper {
-        background-color: #FDCD2F;
-        height: auto;
-        width: auto;
-    }
-
-    .contact-form-header-none {
-        font-size: 22px;
-        font-weight: 900;
-        color: #777;
-        padding: 5px 0 5px 5px;
-    }
-
-
-    .contact-form-header {
-        display: none;
-    }
-
-    .contact-form {
-        grid-template-columns: 120px 120px 120px 100px 80px;
-        justify-content: center;
-        align-items: center;
-        padding-bottom: 50px;
-    }
-}
-
-@media screen and (max-width: 700px) and (min-width: 576px) {
     .form-wrapper {
         background-color: #FDCD2F;
         height: auto;
@@ -1918,7 +1890,33 @@ tbody {
     }
 }
 
-@media screen and (max-width: 576px) and (min-width: 10px) {
+@media screen and (max-width: 700px) and (min-width: 600px) {
+    .form-wrapper {
+        background-color: #FDCD2F;
+        height: auto;
+        width: auto;
+    }
+
+    .contact-form-header-none {
+        font-size: 22px;
+        font-weight: 900;
+        color: #777;
+        padding: 5px 0 5px 5px;
+    }
+
+    .contact-form-header {
+        display: none;
+    }
+
+    .contact-form {
+        grid-template-columns: 100px 100px 100px 100px 80px;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px 10px 50px 10px;
+    }
+}
+
+@media screen and (max-width: 600px) and (min-width: 10px) {
     .form-wrapper {
         background-color: #FDCD2F;
         height: auto;
@@ -1951,3 +1949,4 @@ tbody {
         font-size: 28px;
     }
 }
+
