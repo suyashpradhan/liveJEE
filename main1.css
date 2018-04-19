@@ -1943,3 +1943,78 @@ tbody {
     }
 }
 
+/*--------------SECTION CSS--------------*/
+
+.section-1-of-3 h1 {
+    background-color: #003333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.section-2-of-3 h1 {
+    background-color: #003333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.section-3-of-3 h1 {
+    background-color: #003333;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    padding: 5px 0 5px 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.sectionInnerFirstList a {
+    background-color: #FDCC09;
+    color: #fff;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.section-1-of-3-footer p {
+    background-color: #003333;
+    color: #fff;
+    font-size: 15px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    padding: 5px 0 5px 10px;
+    margin-bottom:0;
+}
+
+.sectionFooterList {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.firstRow{
+    margin-bottom: 20px;
+}
+
+.class{
+    text-align: center;
+}
+
+.mod{
+    font-size: 16px;
+}
+
+.topic{
+    font-size: 16px;
+    padding-left: 20px;
+}
+
+.sectionInnerFirstList p{
+    margin-bottom:14px;
+}
