@@ -2037,8 +2037,12 @@ tbody {
     width: 80px;
 }
 
+.fa-arrow-right {
+    font-size: 14px;
+}
+
 @media screen and (max-width: 526px) and (min-width: 10px) {
-    .live-class-header{
+    .live-class-header {
         font-size: 16px;
         text-align: left;
     }
