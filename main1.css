@@ -1989,7 +1989,7 @@ tbody {
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     padding: 5px 0 5px 10px;
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .sectionFooterList {
@@ -1998,23 +1998,49 @@ tbody {
     flex-direction: row;
 }
 
-.firstRow{
+.firstRow {
     margin-bottom: 20px;
 }
 
-.class{
+.class {
     text-align: center;
 }
 
-.mod{
+.mod {
     font-size: 16px;
 }
 
-.topic{
+.topic {
     font-size: 16px;
     padding-left: 20px;
 }
 
-.sectionInnerFirstList p{
-    margin-bottom:14px;
+.sectionInnerFirstList p {
+    margin-bottom: 14px;
+}
+
+.liveWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.live-link {
+    color: #000;
+}
+
+.live-link:hover {
+    color: #000;
+}
+
+.liveSpan {
+    width: 80px;
+}
+
+
+@media screen and (max-width: 526px) and (min-width: 10px) {
+    .live-class-header{
+        font-size: 16px;
+        text-align: left;
+    }
 }
