@@ -1982,6 +1982,10 @@ tbody {
     cursor: pointer;
 }
 
+.liveSection{
+    border: 1px solid #000;
+}
+
 .section-1-of-3-footer p {
     background-color: #003333;
     color: #fff;
@@ -1999,7 +2003,8 @@ tbody {
 }
 
 .firstRow {
-    margin-bottom: 20px;
+    height:350px;
+    margin-bottom: 60px;
 }
 
 .class {
@@ -2016,7 +2021,7 @@ tbody {
 }
 
 .sectionInnerFirstList p {
-    margin-bottom: 14px;
+    margin-bottom: 7px;
 }
 
 .liveWrapper {
