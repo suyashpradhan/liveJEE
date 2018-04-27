@@ -1950,6 +1950,7 @@ tbody {
     color: #fff;
     font-size: 18px;
     text-align: center;
+    margin: 0;
     padding: 5px 0 5px 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px
@@ -1958,6 +1959,7 @@ tbody {
 .section-2-of-3 h1 {
     background-color: #003333;
     color: #fff;
+    margin: 0;
     font-size: 18px;
     text-align: center;
     padding: 5px 0 5px 0;
@@ -1968,11 +1970,16 @@ tbody {
 .section-3-of-3 h1 {
     background-color: #003333;
     color: #fff;
+    margin: 0;
     font-size: 18px;
     text-align: center;
     padding: 5px 0 5px 0;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px
+}
+
+.blockWrapper{
+    background-color:#CCCDCB;
 }
 
 .sectionInnerFirstList a {
@@ -1988,7 +1995,7 @@ tbody {
     font-size: 15px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
-    padding: 5px 0 5px 10px;
+    padding: 5px 0 5px 5px;
 }
 
 .sectionFooterList {
@@ -2008,6 +2015,11 @@ tbody {
 
 .mod {
     font-size: 16px;
+    padding: 0 0 0 5px;
+}
+
+.check-box{
+    margin:6px 5px 0 0;
 }
 
 .topic {
@@ -2016,7 +2028,7 @@ tbody {
 }
 
 .sectionInnerFirstList p {
-    margin-bottom: 6px;
+    margin-bottom: 8px;
 }
 
 .liveWrapper {
