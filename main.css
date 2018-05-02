@@ -2063,6 +2063,10 @@ tbody {
     font-size: 14px;
 }
 
+.selectButton{
+    font-size: 16px;
+}
+
 @media screen and (max-width: 526px) and (min-width: 10px) {
     .live-class-header {
         font-size: 16px;
