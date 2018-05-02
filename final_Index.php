@@ -414,7 +414,8 @@
 
                 <div class="blockWrapper">
                     <div class="sectionInnerFirstList">
-                        <p><a href="#" class="full-class-link">Full Course</a> <span style="padding-left: 15px">Class XI</span> <span
+                        <p><a href="#" class="full-class-link">Full Course</a> <span
+                                style="padding-left: 15px">Class XI</span> <span
                                 style="float: right">
 					       <input type="checkbox" name='ssm11' id='ssm11'
                                   onclick="fullcourse21('ss','11','ssm');" style="margin-right: 3px;"></span></p>
@@ -422,7 +423,7 @@
 
                     <div class="sectionInnerFirstList">
                         <p><span class="mod">Mod 1</span> <span class="topic"><a href="javascript:void(0);"
-                                                                                 data-toggle="popover"  title="Science 1"
+                                                                                 data-toggle="popover" title="Science 1"
                                                                                  data-content="
 <ol>
 	<li>
@@ -438,7 +439,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 1</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm1' id='ssm1'
-                                                            onclick="sci_course('1');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('1');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -457,7 +459,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 2</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm2' id='ssm2'
-                                                            onclick="sci_course('2');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('2');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -474,7 +477,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 3</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm3' id='ssm3'
-                                                            onclick="sci_course('3');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('3');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
                     <div class="sectionInnerFirstList">
                         <p><span class="mod">Mod 4</span> <span class="topic"><a href="javascript:void(0);"
@@ -490,7 +494,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 4</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm4' id='ssm4'
-                                                            onclick="sci_course('4');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('4');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
                     <div class="sectionInnerFirstList">
@@ -519,7 +524,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 1</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm5' id='ssm5'
-                                                            onclick="sci_course('5');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('5');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -540,7 +546,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 2</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm6' id='ssm6'
-                                                            onclick="sci_course('6');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('6');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -561,7 +568,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 3</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm7' id='ssm7'
-                                                            onclick="sci_course('7');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('7');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -580,7 +588,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Science 4</a></span> <span
                                 style="float: right"><input type="checkbox" name='ssm8' id='ssm8'
-                                                            onclick="sci_course('8');" style="margin-right: 3px;"></span></p>
+                                                            onclick="sci_course('8');"
+                                                            style="margin-right: 3px;"></span></p>
                     </div>
 
 
@@ -617,7 +626,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Number Systems & Algebra </a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm1' id='mmm1'
-                                                            onclick="mat_course_9_10('1');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('1');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -636,7 +646,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Geometry - 1</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm2' id='mmm2'
-                                                            onclick="mat_course_9_10('2');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('2');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -656,7 +667,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Geometry - 2</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm3' id='mmm3'
-                                                            onclick="mat_course_9_10('3');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('3');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -671,7 +683,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Maths 4</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm4' id='mmm4'
-                                                            onclick="mat_course_9_10('4');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('4');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
                     <div class="sectionInnerFirstList">
@@ -693,7 +706,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Number Systems & Algebra</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm5' id='mmm5'
-                                                            onclick="mat_course_9_10('5');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('5');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -712,7 +726,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Algebra & Coordinate Geom</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm6' id='mmm6'
-                                                            onclick="mat_course_9_10('6');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('6');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -735,7 +750,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Geometry & Trigonometry</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm7' id='mmm7'
-                                                            onclick="mat_course_9_10('7');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('7');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -756,7 +772,8 @@
 </ol>
 " data-trigger="hover" style="color:#006666;background: none">Mensuration, Statistics &</a></span> <span
                                 style="float: right"><input type="checkbox" name='mmm8' id='mmm8'
-                                                            onclick="mat_course_9_10('8');" style="margin-right: 3px;"></span></p>
+                                                            onclick="mat_course_9_10('8');" style="margin-right: 3px;"></span>
+                        </p>
                     </div>
 
 
@@ -780,7 +797,8 @@
                 <div class="sectionInnerFirstList">
                     <p><a href="#">Full Course</a> <span style="padding-left: 15px">Class XI</span> <span
                             style="float: right">
-					       <input type="checkbox" name='pm11' id='pm11' onclick="fullcourse21('p','11','pm');" style="margin-right: 3px;"></span>
+					       <input type="checkbox" name='pm11' id='pm11' onclick="fullcourse21('p','11','pm');"
+                                  style="margin-right: 3px;"></span>
                     </p>
                 </div>
 
@@ -802,7 +820,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Mechanics- I</a></span> <span
                             style="float: right"><input type="checkbox" name='pm1' id='pm1'
-                                                        onclick="phy_course('1');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('1');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -819,7 +838,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Mechanics- II</a></span> <span
                             style="float: right"><input type="checkbox" name='pm2' id='pm2'
-                                                        onclick="phy_course('2');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('2');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -836,7 +856,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Heat</a></span> <span
                             style="float: right"><input type="checkbox" name='pm3' id='pm3'
-                                                        onclick="phy_course('3');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('3');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -855,14 +876,16 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Waves</a></span> <span
                             style="float: right"><input type="checkbox" name='pm4' id='pm4'
-                                                        onclick="phy_course('4');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('4');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
                 <div class="sectionInnerFirstList">
                     <p><a href="#">Full Course</a> <span style="padding-left: 15px">Class XII</span> <span
                             style="float: right">
                                          <input type="checkbox" name='pm12' id='pm12'
-                                                onclick="fullcourse21('p','12','pm');" style="margin-right: 3px;"></span></p>
+                                                onclick="fullcourse21('p','12','pm');"
+                                                style="margin-right: 3px;"></span></p>
                 </div>
 
 
@@ -880,7 +903,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Electrostatics</a></span> <span
                             style="float: right"><input type="checkbox" name='pm5' id='pm5'
-                                                        onclick="phy_course('5');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('5');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -900,7 +924,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Electrodynamics</a></span> <span
                             style="float: right"><input type="checkbox" name='pm6' id='pm6'
-                                                        onclick="phy_course('6');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('6');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -917,7 +942,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Optics</a></span> <span
                             style="float: right"><input type="checkbox" name='pm7' id='pm7'
-                                                        onclick="phy_course('7');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('7');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -939,7 +965,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Modern Physics</a></span> <span
                             style="float: right"><input type="checkbox" name='pm8' id='pm8'
-                                                        onclick="phy_course('8');" style="margin-right: 3px;"></span></p>
+                                                        onclick="phy_course('8');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -966,7 +993,8 @@
 		Chemical Bonding and Molecular Structure</li>
 </ul>
 " data-trigger="hover">Full Course</a> <span style="padding-left: 15px">Class XI</span> <span style="float: right">
-					       <input type="checkbox" name='cm11' id='cm11' onclick="fullcourse21('c','11','cm');" style="margin-right: 3px;"></span>
+					       <input type="checkbox" name='cm11' id='cm11' onclick="fullcourse21('c','11','cm');"
+                                  style="margin-right: 3px;"></span>
                     </p>
                 </div>
 
@@ -987,7 +1015,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">General Chemistry</a></span> <span
                             style="float: right"><input type="checkbox" name='cm1' id='cm1'
-                                                        onclick="chem_course('1');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('1');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1006,7 +1035,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Physical Chemistry I</a></span> <span
                             style="float: right"><input type="checkbox" name='cm2' id='cm2'
-                                                        onclick="chem_course('2');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('2');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1024,7 +1054,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Inorganic Chemistry I</a></span> <span
                             style="float: right"><input type="checkbox" name='cm3' id='cm3'
-                                                        onclick="chem_course('3');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('3');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1041,7 +1072,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Organic Chemistry I</a></span> <span
                             style="float: right"><input type="checkbox" name='cm4' id='cm4'
-                                                        onclick="chem_course('4');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('4');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
                 <div class="sectionInnerFirstList">
@@ -1060,7 +1092,8 @@
 </ul>
 " data-trigger="hover">Full Course</a> <span style="padding-left: 15px">Class XII</span> <span
                             style="float: right"><input type="checkbox" name='cm12' id='cm12'
-                                                        onclick="fullcourse21('c','12','cm');" style="margin-right: 3px;"></span></p>
+                                                        onclick="fullcourse21('c','12','cm');"
+                                                        style="margin-right: 3px;"></span></p>
                 </div>
 
 
@@ -1082,7 +1115,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Physical Chemistry II</a></span> <span
                             style="float: right"><input type="checkbox" name='cm5' id='cm5'
-                                                        onclick="chem_course('5');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('5');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1102,7 +1136,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Inorganic Chemistry II</a></span> <span
                             style="float: right"><input type="checkbox" name='cm6' id='cm6'
-                                                        onclick="chem_course('6');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('6');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1122,7 +1157,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Organic Chemistry II</a></span> <span
                             style="float: right"><input type="checkbox" name='cm7' id='cm7'
-                                                        onclick="chem_course('7');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('7');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1141,7 +1177,8 @@
 </ul>
 " data-trigger="hover" ; style="color:#006666;background: none">Applied Chemistry</a></span> <span
                             style="float: right"><input type="checkbox" name='cm8' id='cm8'
-                                                        onclick="chem_course('8');" style="margin-right: 3px;"></span></p>
+                                                        onclick="chem_course('8');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1170,7 +1207,8 @@
                 <div class="sectionInnerFirstList">
                     <p><a href="#">Full Course</a> <span style="padding-left: 15px">Class XI</span> <span
                             style="float: right">
-					       <input type="checkbox" name='mm11' id='mm11' onclick="fullcourse21('m','11','mm');" style="margin-right: 3px;"></span>
+					       <input type="checkbox" name='mm11' id='mm11' onclick="fullcourse21('m','11','mm');"
+                                  style="margin-right: 3px;"></span>
                     </p>
                 </div>
 
@@ -1191,9 +1229,9 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Sets & Functions</a></span> <span
                             style="float: right"><input type="checkbox" name='mm1' id='mm1'
-                                                        onclick="mat_course('1');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('1');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
-
 
                 <div class="sectionInnerFirstList">
                     <p><span class="mod">Mod 2</span> <span class="topic"><a href="javascript:void(0);"
@@ -1210,7 +1248,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Algebra</a></span> <span
                             style="float: right"><input type="checkbox" name='mm2' id='mm2'
-                                                        onclick="mat_course('2');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('2');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1227,7 +1266,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Coordinate Geometry</a></span> <span
                             style="float: right"><input type="checkbox" name='mm3' id='mm3'
-                                                        onclick="mat_course('3');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('3');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1246,7 +1286,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Miscellaneous</a></span> <span
                             style="float: right"><input type="checkbox" name='mm4' id='mm4'
-                                                        onclick="mat_course('4');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('4');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
                 <div class="sectionInnerFirstList">
@@ -1272,7 +1313,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Calculus I</a></span> <span
                             style="float: right"><input type="checkbox" name='mm5' id='mm5'
-                                                        onclick="mat_course('5');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('5');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1289,7 +1331,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Calculus II</a></span> <span
                             style="float: right"><input type="checkbox" name='mm6' id='mm6'
-                                                        onclick="mat_course('6');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('6');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
@@ -1308,7 +1351,8 @@
 " data-trigger="hover" style="color:#006666;background: none">Analytical geometry,Vectors and ITF</a></span>
                         <span
                                 style="float: right"><input type="checkbox" name='mm7' id='mm7'
-                                                            onclick="mat_course('7');" style="margin-right: 3px;"></span>
+                                                            onclick="mat_course('7');"
+                                                            style="margin-right: 3px;"></span>
                     </p>
                 </div>
 
@@ -1329,7 +1373,8 @@
 </ul>
 " data-trigger="hover" style="color:#006666;background: none">Miscellaneous</a></span> <span
                             style="float: right"><input type="checkbox" name='mm8' id='mm8'
-                                                        onclick="mat_course('8');" style="margin-right: 3px;"></span></p>
+                                                        onclick="mat_course('8');" style="margin-right: 3px;"></span>
+                    </p>
                 </div>
 
 
