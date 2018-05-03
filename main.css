@@ -2142,3 +2142,13 @@ input[type="radio"]{
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
 }
+
+.table_course tr td {
+    border: 1px solid #000;
+    font-size: 14px;
+}
+
+.table_course th{
+    border: 1px solid #000;
+    font-size: 14px;
+}
