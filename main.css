@@ -481,11 +481,13 @@ body {
     width: 100%;
 }
 
+/*
 table tr td {
     border: 1px solid #000;
     padding: 10px;
     text-align: justify-all;
 }
+*/
 
 tbody {
     overflow: scroll;
@@ -1983,15 +1985,15 @@ tbody {
     border-top-right-radius: 5px
 }
 
-.blockWrapper{
-    background-color:#CCC;
+.blockWrapper {
+    background-color: #CCC;
 }
 
 .sectionInnerFirstList a {
     background-color: #FDCC09;
     color: #fff;
     cursor: pointer;
-    padding: 0 3px 0 3px ;
+    padding: 0 3px 0 3px;
 }
 
 .section-1-of-3-footer p {
@@ -2023,8 +2025,8 @@ tbody {
     padding: 0 0 0 5px;
 }
 
-.check-box{
-    margin:6px 5px 0 0;
+.check-box {
+    margin: 6px 5px 0 0;
 }
 
 .topic {
@@ -2032,8 +2034,8 @@ tbody {
     padding-left: 7px;
 }
 
-.section-link{
-    background:none;
+.section-link {
+    background: none;
 }
 
 .sectionInnerFirstList p {
@@ -2062,7 +2064,7 @@ tbody {
     font-size: 14px;
 }
 
-.selectButton{
+.selectButton {
     font-size: 16px;
 }
 
@@ -2073,6 +2075,6 @@ tbody {
     }
 }
 
-.tableDiv{
+.tableDiv {
     border: none;
 }

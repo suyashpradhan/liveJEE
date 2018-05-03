@@ -564,12 +564,12 @@ if ($total != 0) {
     <tr align="right">
         <td align="right" width="95%">
             <input type="button" id="paynow" value="Select More Batch" onclick="exit_popup();"
-                   style="background-color: #FDCC09;border: 1px solid #FDCC09;font-size: 16px;border-radius: 5px;width: auto;color: #fff;cursor: pointer"/>
+                   style="background-color: #FDCC09;border: 1px solid #FDCC09;font-size: 16px;border-radius: 5px;width: 150px;color:#231F20;margin-right:10px;padding:3px 0;cursor: pointer"/>
         </td>
         <td align=" right" width="5%">
             <a href="registration_form.php" id="register" class="pop" style="text-decoration:none;"><input
                         type="button" id="paynow" value="Pay Now"
-                        style="background-color: #231F20;border: 1px solid #231F20;font-size: 16px;border-radius: 5px;width: auto;color: #fff;cursor: pointer"/></a>
+                        style="background-color: #231F20;border: 1px solid #231F20;font-size: 16px;border-radius: 5px;width: 100px;color: #fff;cursor: pointer;padding:3px 0;"/></a>
         </td>
     </tr>
 </table>
