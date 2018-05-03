@@ -1383,6 +1383,7 @@ tbody {
     text-decoration: none;
 }
 
+/*
 .modal {
     display: none;
     position: fixed;
@@ -1404,10 +1405,11 @@ tbody {
     width: 500px;
     border-radius: 5px;
 }
+*/
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
 
-    .modal {
+    /*.modal {
         display: none;
         position: fixed;
         z-index: 1;
@@ -1442,7 +1444,7 @@ tbody {
         width: 250px;
         border-radius: 5px;
     }
-
+*/
     .formSection {
         display: flex;
         justify-content: center;
@@ -1474,7 +1476,7 @@ tbody {
 }
 
 @media screen and (min-width: 400px) and (max-width: 526px) {
-    .modal {
+    /*.modal {
         display: none;
         position: fixed;
         z-index: 1;
@@ -1536,13 +1538,13 @@ tbody {
         border: 1px solid #888;
         width: 300px;
         border-radius: 5px;
-    }
+    }*/
 }
 
 @media screen and (min-width: 736px) and (max-width: 10000px) {
-    .loginModal {
+    /*.loginModal {
         display: none !important;
-    }
+    }*/
 }
 
 @media screen and (max-width: 736px) and (min-width: 10px) {
@@ -2077,4 +2079,66 @@ tbody {
 
 .tableDiv {
     border: none;
+}
+
+.first-half-Header {
+    background-color: #003333;
+}
+
+.first-half-Header h1 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+}
+
+.second-half-Header {
+    background-color: #003333;
+}
+
+.second-half-Header h1 {
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    padding: 3px 0;
+}
+
+label {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.first-form-wrapper {
+    display: grid;
+    grid-template-columns: 100px 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.first-form-wrapper-email{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
+}
+
+.first-form-wrapper-country{
+    display: grid;
+    grid-template-columns: 100px 10px 80px 10px 80px;
+    grid-gap: 10px;.
+}
+
+.first-form-wrapper-state{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+input[type="radio"]{
+    margin-top: 5px;
+}
+
+.first-form-wrapper-address{
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    grid-gap: 10px;
 }
