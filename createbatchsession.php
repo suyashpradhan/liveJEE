@@ -2,6 +2,7 @@
       rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link rel="stylesheet" href="main.css">
 <style type="text/css">
 
     input {
@@ -525,7 +526,7 @@ if ($total != 0) {
 ?>
 
 <div style="overflow-x:auto;overflow-y:auto">
-    <table id="hor-minimalist-b" align="right" rules="cols" style="color:#888888;font-size:12px" class="table table-sm">
+    <table id="hor-minimalist-b" align="right" rules="cols" style="color:#888888;font-size:12px;" class="table table-sm">
         <thead>
         <tr>
             <th scope="col">&nbsp;</th>
@@ -551,7 +552,7 @@ if ($total != 0) {
     </table>
 </div>
 <br/><br/> <br/><br/><br/><br/> <br/><br/>
-<table align="right" width="100%">
+<table align="right" width="100%" class="tableDiv">
     <tr align="right">
         <td align="right" colspan="2">
             <label style="color:#003333; font-size:16px;"><span style="color: red">* </span>Fees exclusive of

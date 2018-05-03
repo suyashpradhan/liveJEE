@@ -1037,7 +1037,6 @@ tbody {
     .loginModal {
         display: none !important;
     }
-
 }
 
 @media screen and (max-width: 500px) {
@@ -2072,4 +2071,8 @@ tbody {
         font-size: 16px;
         text-align: left;
     }
+}
+
+.tableDiv{
+    border: none;
 }
