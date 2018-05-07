@@ -1748,7 +1748,7 @@ tbody {
 
 .form-wrapper {
     background-color: #FDCD2F;
-    height: 90px;
+    height: 60px;
     width: auto;
 }
 
@@ -1756,14 +1756,15 @@ tbody {
     font-size: 28px;
     font-weight: 900;
     color: #777;
+    padding: 0;
 }
 
 .contact-form {
     display: grid;
-    grid-template-columns: repeat(6, 200px);
-    grid-gap: 20px;
+    grid-template-columns: 200px 200px 200px 200px 200px 120px;
+    grid-gap: 15px;
     justify-content: center;
-    padding-top: 30px;
+    align-items: center;
 }
 
 .user-name {
@@ -1779,53 +1780,19 @@ tbody {
 }
 
 .user-class-option {
-    height: 30px;
+    height: 30px !important;
 }
 
 .btn-submit {
     background-color: #003333;
     border-radius: 100px;
     width: 100px;
-    height: 30px;
+    height: 30px !important;
     border: 1px solid #003333;
     color: #fff;
     cursor: pointer;
-}
-
-@media screen and (max-width: 526px) and (min-width: 10px) {
-    .form-wrapper {
-        background-color: #FDCD2F;
-        height: auto;
-        width: auto;
-    }
-
-    .contact-form-header {
-        text-align: center;
-    }
-
-    .contact-form {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        padding: 10px 10px 20px 10px;
-    }
-}
-
-@media screen and (max-width: 526px) and (min-width: 10px) {
-    .form-wrapper {
-        background-color: #FDCD2F;
-        height: auto;
-        width: auto;
-    }
-
-    .contact-form-header {
-        text-align: center;
-    }
-
-    .contact-form {
-        grid-template-columns: 1fr;
-        justify-content: center;
-        padding: 10px 10px 20px 10px;
-    }
+    text-align: center;
+    padding: 0;
 }
 
 @media screen and (max-width: 10000px) and (min-width: 1400px) {
@@ -1834,7 +1801,7 @@ tbody {
     }
 }
 
-@media screen and (max-width: 1400px) and (min-width: 900px) {
+@media screen and (max-width: 1400px) and (min-width: 1100px) {
     .form-wrapper {
         background-color: #FDCD2F;
         height: auto;
@@ -1849,18 +1816,16 @@ tbody {
         font-size: 22px;
         font-weight: 900;
         color: #777;
-        padding: 5px 0 5px 5px;
+        padding: 0 0 0 5px;
     }
 
     .contact-form {
-        grid-template-columns: 150px 150px 150px 150px 150px 80px;
+        grid-template-columns: repeat(6, 160px);
         justify-content: center;
-        align-items: center;
-        padding-bottom: 50px;
     }
 }
 
-@media screen and (max-width: 900px) and (min-width: 700px) {
+@media screen and (max-width: 1100px) and (min-width: 700px) {
     .form-wrapper {
         background-color: #FDCD2F;
         height: auto;
@@ -1878,11 +1843,14 @@ tbody {
         display: none;
     }
 
+    .user-class-option {
+        font-size: 16px;
+    }
+
     .contact-form {
-        grid-template-columns: 120px 120px 120px 100px 80px;
+        grid-template-columns: 130px 130px 130px 150px 90px;
         justify-content: center;
-        align-items: center;
-        padding-bottom: 50px;
+        padding: 0 5px 30px 5px;
     }
 }
 
@@ -1906,9 +1874,9 @@ tbody {
 
     .contact-form {
         grid-template-columns: 100px 100px 100px 100px 80px;
-        justify-content: space-around;
+        justify-content: center;
         align-items: center;
-        padding: 10px 10px 50px 10px;
+        padding: 10px 5px 50px 5px;
     }
 }
 
@@ -1924,7 +1892,7 @@ tbody {
         font-size: 22px;
         font-weight: 900;
         color: #777;
-        padding: 5px 0 5px 5px;
+        padding: 10px 0 5px 10px;
     }
 
     .contact-form-header {
@@ -1945,7 +1913,6 @@ tbody {
         font-size: 28px;
     }
 }
-
 /*--------------SECTION CSS--------------*/
 
 .section-1-of-3 h1 {
@@ -2123,7 +2090,7 @@ label {
 .first-form-wrapper-country{
     display: grid;
     grid-template-columns: 100px 10px 80px 10px 80px;
-    grid-gap: 10px;.
+    grid-gap: 10px;
 }
 
 .first-form-wrapper-state{
