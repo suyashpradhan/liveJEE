@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4796bd06-9367-495c-b554-f2e95d51d7de" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/registration_popup.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/222.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/createbatchsession.html" beforeDir="false" afterPath="$PROJECT_DIR$/createbatchsession.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/custom grid.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration_form.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration_form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration_popup.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration_popup.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -25,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="225">
-      <file leaf-file-name="registration_popup.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="registration_popup.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration_popup.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="174" column="6" lean-forward="true" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
+            <state relative-caret-position="701">
+              <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
               <folding>
                 <element signature="e#1265#1272#1" expanded="true" />
                 <element signature="n#style#0;n#input#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,11 +34,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="2231" column="5" lean-forward="true" selection-start-line="2231" selection-start-column="5" selection-end-line="2231" selection-end-column="5" />
+            <state relative-caret-position="99">
+              <caret line="2056" lean-forward="true" selection-start-line="2056" selection-end-line="2056" />
             </state>
           </provider>
         </entry>
@@ -149,10 +141,10 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/comparisonModal.html" />
         <option value="$PROJECT_DIR$/createbatchsession.html" />
-        <option value="$PROJECT_DIR$/registration_form.html" />
         <option value="$PROJECT_DIR$/liveJeeRWDindex.html" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/registration_popup.html" />
+        <option value="$PROJECT_DIR$/registration_form.html" />
+        <option value="$PROJECT_DIR$/main.css" />
       </list>
     </option>
   </component>
@@ -290,14 +282,7 @@
       <workItem from="1525337544621" duration="11747000" />
       <workItem from="1525407311827" duration="9509000" />
       <workItem from="1525667039679" duration="3622000" />
-      <workItem from="1525756273187" duration="19714000" />
-    </task>
-    <task id="LOCAL-00047" summary="Office 20/3/18">
-      <created>1521547879921</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1521547879921</updated>
+      <workItem from="1525756273187" duration="21723000" />
     </task>
     <task id="LOCAL-00048" summary="Office 20/3/18">
       <created>1521549103819</created>
@@ -635,11 +620,18 @@
       <option name="project" value="LOCAL" />
       <updated>1525670377438</updated>
     </task>
-    <option name="localTasksCounter" value="96" />
+    <task id="LOCAL-00096" summary="Office 8/5/18">
+      <created>1525777920700</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1525777920701</updated>
+    </task>
+    <option name="localTasksCounter" value="97" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="528993000" />
+    <option name="totallyTimeSpent" value="531002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -674,7 +666,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Office 12/3/18" />
     <MESSAGE value="Office 13/3/18" />
     <MESSAGE value="Office 14/3/18" />
     <MESSAGE value="Office 16/3/18" />
@@ -699,7 +690,8 @@
     <MESSAGE value="Office 2/5/18" />
     <MESSAGE value="Office 3/5/18" />
     <MESSAGE value="Office 7/5/18" />
-    <option name="LAST_COMMIT_MESSAGE" value="Office 7/5/18" />
+    <MESSAGE value="Office 8/5/18" />
+    <option name="LAST_COMMIT_MESSAGE" value="Office 8/5/18" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,25 +989,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/registration_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2512">
-          <caret line="157" column="58" selection-start-line="157" selection-start-column="58" selection-end-line="157" selection-end-column="58" />
+        <state relative-caret-position="232">
+          <caret line="366" column="58" selection-start-line="366" selection-start-column="58" selection-end-line="366" selection-end-column="58" />
           <folding>
             <element signature="e#5082#5109#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="2231" column="5" lean-forward="true" selection-start-line="2231" selection-start-column="5" selection-end-line="2231" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registration_popup.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="174" column="6" lean-forward="true" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
+        <state relative-caret-position="701">
+          <caret line="46" column="36" lean-forward="true" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
           <folding>
             <element signature="e#1265#1272#1" expanded="true" />
             <element signature="n#style#0;n#input#2;n#div#4;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -1024,6 +1009,13 @@
             <element signature="n#style#0;n#input#0;n#div#7;n#form#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="2056" lean-forward="true" selection-start-line="2056" selection-end-line="2056" />
         </state>
       </provider>
     </entry>
