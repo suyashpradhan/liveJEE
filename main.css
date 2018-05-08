@@ -1913,6 +1913,7 @@ tbody {
         font-size: 28px;
     }
 }
+
 /*--------------SECTION CSS--------------*/
 
 .section-1-of-3 h1 {
@@ -2044,8 +2045,14 @@ tbody {
     }
 }
 
+/**************REGISTRATION FORM CSS*************/
+
 .tableDiv {
     border: none;
+}
+
+.registration-form ::placeholder {
+    padding: 10px 3px;
 }
 
 .first-half-Header {
@@ -2072,7 +2079,7 @@ tbody {
 
 label {
     margin-right: 10px;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .first-form-wrapper {
@@ -2081,30 +2088,30 @@ label {
     grid-gap: 10px;
 }
 
-.first-form-wrapper-email{
+.first-form-wrapper-email {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
 }
 
-.first-form-wrapper-country{
+.first-form-wrapper-country {
     display: grid;
     grid-template-columns: 100px 10px 80px 10px 80px;
     grid-gap: 10px;
 }
 
-.first-form-wrapper-state{
+.first-form-wrapper-state {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-content: center;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     grid-gap: 10px;
 }
 
-input[type="radio"]{
+input[type="radio"] {
     margin-top: 5px;
 }
 
-.first-form-wrapper-address{
+.first-form-wrapper-address {
     display: grid;
     grid-template-columns: 100px 1fr;
     grid-gap: 10px;
@@ -2115,7 +2122,135 @@ input[type="radio"]{
     font-size: 14px;
 }
 
-.table_course th{
+.table_course th {
     border: 1px solid #000;
     font-size: 14px;
+}
+
+.first-form-wrapper-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.btnPayNow{
+    flex-basis: 120px;
+}
+
+@media screen and (max-width: 992px) and (min-width: 700px) {
+
+    .first-form-wrapper {
+        display: grid;
+        grid-template-columns: 100px 155px 155px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-email {
+        display: grid;
+        grid-template-columns: 100px 170px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-country {
+        display: grid;
+        grid-template-columns: 100px 10px 50px 10px 80px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-state {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-address {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin-bottom: 20px;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 700px) and (min-width: 526px) {
+
+    .first-form-wrapper {
+        display: grid;
+        grid-template-columns: 100px 155px 155px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-email {
+        display: grid;
+        grid-template-columns: 100px 170px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-country {
+        display: grid;
+        grid-template-columns: 100px 10px 80px 10px 80px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-state {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-address {
+        display: grid;
+        grid-template-columns: 100px 1fr;
+        margin-bottom: 20px;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 526px) and (min-width: 200px) {
+
+    .first-form-wrapper {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .first-form-wrapper input {
+        margin-bottom: 10px;
+        height: 30px;
+    }
+
+    .first-form-wrapper-email {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .first-form-wrapper-email input {
+        height: 30px;
+    }
+
+    .first-form-wrapper-country {
+        display: grid;
+        grid-template-columns: 60px 10px 50px 10px 80px;
+        grid-gap: 10px;
+    }
+
+    .first-form-wrapper-state {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .first-form-wrapper-address {
+        display: flex;
+        flex-direction: column;
+        font-size: 10px;
+    }
+
+    .first-form-wrapper-address input {
+        margin-bottom: 10px;
+        height: 30px;
+    }
 }

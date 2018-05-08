@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+    Launch demo modal
+</button>
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Register Here!!!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
+                            <form action="" class="registration-form" id="profile_detail" method="post">
+                                <div class="first-half-Header">
+                                    <h1>Personal Details</h1>
+                                </div>
+                                <div class="first-form-wrapper">
+                                    <label>Name:</label>
+                                    <input type="text" placeholder="First Name" class="first_Name"
+                                           name="student_name1"
+                                           id="student_name1" onkeyup="display_student_first_name()"
+                                           onblur="display_student_first_name()" required="">
+                                    <input type="text" placeholder="Last Name" name="last_name" class="last_Name"
+                                           id="last_name" onkeyup="display_student_last_name()" required="">
+                                </div>
+                                <br>
+                                <div class="first-form-wrapper">
+                                    <label>Phone No:</label>
+                                    <input type="text" placeholder="Mobile Number" name="contact_number"
+                                           class="phone_number_one" id="contact_number"
+                                           onkeyup="display_student_mobile_number1()"
+                                           onblur="display_student_mobile_number1()">
+                                    <input type="text" placeholder="Mobile Number" name="second_contact"
+                                           class="phone_number_two" id="second_contact"
+                                           onkeyup="display_student_mobile_number2()"
+                                           onblur="display_student_mobile_number2()">
+                                </div>
+                                <br>
+                                <div class="first-form-wrapper-email">
+                                    <label>Email:</label>
+                                    <input type="email" placeholder="Email Address" name="student_email1"
+                                           class="email_address" id="student_email1"
+                                           onkeyup="display_student_email_id()" onblur="display_student_email_id()">
+                                </div>
+                                <br>
+                                <div class="first-form-wrapper-country">
+                                    <label>Country:</label>
+                                    <input type="radio" name="country" id="country" value="India" checked="checked"
+                                           onchange="check_country();">India
+                                    <input type="radio" name="country" id="country2" value="Other"
+                                           onchange="check_country();">Other
+                                    <input type="text" name="other_country" class="phone_number_two"
+                                           id="other_country"
+                                           style="display:none" onkeypress="display_country()"
+                                           onblur="display_country()" placeholder="Enter Country">
+                                </div>
+                                <br>
+                                <div class="first-form-wrapper-state" id="india_section">
+                                    <div id="selection">
+                                        <select id="listBox" name="state_name"
+                                                onchange="selct_district(this.value)">
+                                            <option value="SELECT STATE">Select States</option>
+                                            <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                            <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                            <option value="Assam">Assam</option>
+                                            <option value="Bihar">Bihar</option>
+                                            <option value="Chhattisgarh">Chhattisgarh</option>
+                                            <option value="Dadra and Nagar Haveli">Dadra and Nagar Haveli</option>
+                                            <option value="Daman and Diu">Daman and Diu</option>
+                                            <option value="Delhi">Delhi</option>
+                                            <option value="Goa">Goa</option>
+                                            <option value="Gujarat">Gujarat</option>
+                                            <option value="Haryana">Haryana</option>
+                                            <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                            <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                            <option value="Jharkhand">Jharkhand</option>
+                                            <option value="Karnataka">Karnataka</option>
+                                            <option value="Kerala">Kerala</option>
+                                            <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                            <option value="Maharashtra">Maharashtra</option>
+                                            <option value="Manipur">Manipur</option>
+                                            <option value="Meghalaya">Meghalaya</option>
+                                            <option value="Mizoram">Mizoram</option>
+                                            <option value="Nagaland">Nagaland</option>
+                                            <option value="Orissa">Orissa</option>
+                                            <option value="Puducherry">Puducherry</option>
+                                            <option value="Punjab">Punjab</option>
+                                            <option value="Rajasthan">Rajasthan</option>
+                                            <option value="Sikkim">Sikkim</option>
+                                            <option value="Tamil Nadu">Tamil Nadu</option>
+                                            <option value="Telangana">Telangana</option>
+                                            <option value="Tripura">Tripura</option>
+                                            <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                            <option value="Uttarakhand">Uttarakhand</option>
+                                            <option value="West Bengal">West Bengal</option>
+                                        </select>
+                                        <select id="secondlist" name="city_name" onchange="check_city()"
+                                                style="width:150px;"></select><input type="text" name="city"
+                                                                                     id="city"
+                                                                                     style="display:none"
+                                                                                     placeholder="Enter City Name">
+                                    </div>
+                                </div>
+                                <br>
+                                <div class="first-form-wrapper-address">
+                                    <label>Address:</label>
+                                    <input type="text" placeholder="Address" name="address" class="address"
+                                           id="address"
+                                           onkeyup="display_student_address()" onblur="display_student_email_id()">
+                                </div>
+                                <div class="first-form-wrapper-button">
+                                    <input type="submit" class="btnPayNow" name="step_1_next" id="step_1_next"
+                                           onclick="console.log('1')"
+                                           style="background-color: #231F20;border: 1px solid #231F20;font-size: 16px;border-radius: 5px;width: 100px;color: #fff;cursor: pointer;padding:3px 0;"
+                                           value="Pay Now">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
+                            <div class="second-half-Header">
+                                <h1>Invoice</h1>
+                            </div>
+                            <div class="form-input-Wrapper">
+                                <label>First Name: <span id="display_student_name"></span>
+                                </label><br>
+                                <label>Mobile Number 1: <span id="display_mobile_number1"></span></label><br>
+                                <label>Mobile Number 2: <span id="display_mobile_number2"></span></label><br>
+                                <label>Email Address: <span id="display_email_id"></span></label><br>
+                                <label>Country: <span id="display_country">India</span></label><br>
+                                <label>Address: <span id="display_address"></span></label><br><br>
+                            </div>
+                            <table class="table_course" style="width: 100%; text-align: center">
+                                <tbody>
+                                <tr>
+                                    <th>Module Selected</th>
+                                    <th>Cost</th>
+                                </tr>
+                                <tr>
+                                    <td>ss-9/</td>
+                                    <td>Rs <label id="net_fees">22500<input type="hidden" id="net_fees_input"
+                                                                            name="net_fees_input"
+                                                                            value="22500"></label>
+                                    </td>
+                                </tr>
+                                </tbody>
+                            </table>
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+</html>
