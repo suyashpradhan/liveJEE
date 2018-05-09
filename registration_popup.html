@@ -70,8 +70,8 @@
                                            onchange="check_country();">Other
                                     <input type="text" name="other_country" class="phone_number_two"
                                            id="other_country"
-                                           style="display:none" onkeypress="display_country()"
-                                           onblur="display_country()" placeholder="Enter Country">
+                                           style="display:none;height: 30px;width: 200px;" onkeypress="display_country()"
+                                           onblur="display_country()" placeholder="Enter Country" >
                                 </div>
                                 <br>
                                 <div class="first-form-wrapper-state" id="india_section">
@@ -180,5 +180,29 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+<script>
+    function display_country()
+    {
+        var student_name=$('#other_country').val();
+        $('#display_country').html(student_name);
+    }
+    function check_country()
+    {
+        var country=$('input[name="country"]:checked').val();
+        if(country == 'India')
+        {
+            $('#other_country').hide();
+            $('#india_section').show();
+            // $('#shop_names').show();
+            $('#display_country').html('India');
+        }
+        else
+        {
+            $('#other_country').show();
+            $('#india_section').hide();
+            $('#shop_names').hide();
+        }
+    }
+</script>
 </body>
 </html>
