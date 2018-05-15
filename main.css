@@ -1966,14 +1966,23 @@ tbody {
     padding: 0 3px 0 3px;
 }
 
-.section-1-of-3-footer p {
+.section-1-of-3-footer {
     background-color: #003333;
     color: #fff;
     font-size: 14px;
     border-bottom-left-radius: 3px;
     border-bottom-right-radius: 3px;
     padding: 5px 0 5px 8px;
+    margin: 0;
+    width: 100%;
 }
+
+.fees-structure-title{
+    font-size: 24px;
+    color: #000;
+    text-align: center;
+}
+
 
 .sectionFooterList {
     display: flex;
