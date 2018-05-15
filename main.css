@@ -272,7 +272,8 @@ body {
 
 .videoWrapper {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
+    padding-bottom: 56.25%;
+    /* 16:9 */
     padding-top: 10px;
     height: 0;
     margin-bottom: 30px;
@@ -458,6 +459,7 @@ body {
 }
 
 /********************IX PAGE SECTION*******************/
+
 .header {
     display: flex;
     justify-content: center;
@@ -649,6 +651,7 @@ tbody {
 /**********************END'S HERE***************************/
 
 /*Footer Css*/
+
 .col-1-of-2 {
     height: auto;
     width: auto;
@@ -717,7 +720,8 @@ tbody {
     font-weight: 400;
 }
 
-.directorSection h2, h3 {
+.directorSection h2,
+h3 {
     font-size: 20px;
 }
 
@@ -868,17 +872,14 @@ tbody {
 /***********************************************/
 
 @media screen and (max-width: 1010px) {
-
     .middle-header h1 {
         font-size: 35px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 30px;
         text-align: center;
     }
-
     .footer-main-list {
         font-size: 18px;
         font-weight: 400;
@@ -889,33 +890,26 @@ tbody {
         flex-direction: row;
         cursor: pointer;
     }
-
     .footer-main-list li {
         margin: 20px 20px 25px 20px;
     }
-
     .formWrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
     }
-
     .name {
         width: 180px;
     }
-
     .phone-number {
         width: 180px;
     }
-
     .email-address {
         width: 180px;
     }
-
     .class-option {
         width: 180px;
     }
-
     .btn-submit {
         width: 150px;
     }
@@ -925,28 +919,23 @@ tbody {
     .header h1 {
         font-size: 30px;
     }
-
     .prerequisiteCol {
         display: none;
     }
-
     .middle-header h1 {
         font-size: 30px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 25px;
         text-align: center;
     }
-
     .middle-sub-header {
         font-size: 35px;
         text-align: center;
         color: #fff;
         padding: 25px;
     }
-
     .footer-main-list {
         font-size: 16px;
         font-weight: 400;
@@ -957,34 +946,27 @@ tbody {
         flex-direction: row;
         cursor: pointer;
     }
-
     .footer-main-list li {
         margin: 18px 18px 18px 18px;
     }
-
     .formWrapper {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
     }
-
     .name {
         width: 160px;
     }
-
     .phone-number {
         width: 160px;
     }
-
     .email-address {
         width: 160px;
     }
-
     .class-option {
         width: 160px;
     }
-
     .btn-submit {
         width: 130px;
     }
@@ -994,32 +976,26 @@ tbody {
     .header h1 {
         font-size: 25px;
     }
-
     .prerequisiteCol {
         display: none;
     }
-
     .middle-header h1 {
         font-size: 25px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 20px;
         text-align: center;
     }
-
     .know-more {
         margin: 0;
     }
-
     .middle-sub-header {
         font-size: 30px;
         text-align: center;
         color: #fff;
         padding: 20px;
     }
-
     .footer-main-list {
         font-size: 15px;
         font-weight: 300;
@@ -1031,11 +1007,9 @@ tbody {
         flex-direction: row;
         cursor: pointer;
     }
-
     .footer-main-list li {
         margin: 10px 15px 10px 10px;
     }
-
     .loginModal {
         display: none !important;
     }
@@ -1045,40 +1019,32 @@ tbody {
     .header h1 {
         font-size: 25px;
     }
-
     .innerColMain h1 {
         font-size: 16px;
     }
-
     .innerColSub h1 {
         font-size: 16px;
     }
-
     .middle-header h1 {
         font-size: 22px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 18px;
         text-align: center;
     }
-
     .prerequisiteCol {
         display: none;
     }
-
     .know-more {
         margin: 0;
     }
-
     .middle-sub-header {
         font-size: 20px;
         text-align: center;
         color: #fff;
         padding: 20px;
     }
-
     .footer-main-list {
         font-size: 16px;
         font-weight: 400;
@@ -1090,42 +1056,34 @@ tbody {
         flex-direction: column;
         cursor: pointer;
     }
-
     .footer-main-list li {
         margin: 10px 10px 10px 10px;
     }
 }
 
 @media screen and (max-width: 500px) and (min-width: 350px) {
-
     .header h1 {
         font-size: 20px;
     }
-
     .middle-header h1 {
         font-size: 18px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 18px;
         text-align: center;
     }
-
     .know-more {
         margin: 0;
     }
-
     .SectionOne-Left img {
         height: 150px;
         width: auto;
         margin-top: 100px !important;
     }
-
     .SectionOne-Right-List li {
         font-size: 12px;
     }
-
     .innerSectionForm {
         display: grid;
         grid-template-columns: 140px 140px;
@@ -1138,31 +1096,25 @@ tbody {
     .header h1 {
         font-size: 20px;
     }
-
     .middle-header h1 {
         font-size: 15px;
         text-align: center;
     }
-
     .middle-wrapper-main-subpart h1 {
         font-size: 14px;
         text-align: center;
     }
-
     .know-more {
         margin: 0;
     }
-
     .SectionOne-Left img {
         height: 110px;
         width: auto;
         margin: 120px 0 0 10px !important;
     }
-
     .SectionOne-Right-List li {
         font-size: 12px;
     }
-
     .innerSectionForm {
         display: grid;
         grid-template-columns: 100px 100px;
@@ -1175,7 +1127,6 @@ tbody {
     .header h1 {
         font-size: 18px;
     }
-
     .footer-main-list {
         font-size: 16px;
         font-weight: 400;
@@ -1187,7 +1138,6 @@ tbody {
         flex-direction: column;
         cursor: pointer;
     }
-
     .footer-main-list li {
         margin: 10px 10px 10px 10px;
     }
@@ -1252,7 +1202,8 @@ tbody {
     text-align: left;
 }
 
-.topnav a:hover, .dropdown1:hover .dropbtn {
+.topnav a:hover,
+.dropdown1:hover .dropbtn {
     background-color: #555;
     color: white;
     text-decoration: none;
@@ -1268,15 +1219,14 @@ tbody {
 }
 
 @media screen and (max-width: 735px) {
-    .topnav a:not(:first-child), .dropdown1 .dropbtn {
+    .topnav a:not(:first-child),
+    .dropdown1 .dropbtn {
         display: none;
     }
-
     .topnav a.icon {
         float: right;
         display: block;
     }
-
     .loginModal {
         display: block !important;
     }
@@ -1286,27 +1236,22 @@ tbody {
     .topnav.responsive {
         position: relative;
     }
-
     .topnav.responsive .icon {
         position: absolute;
         right: 0;
         top: 0;
     }
-
     .topnav.responsive a {
         float: none;
         display: block;
         text-align: left;
     }
-
     .topnav.responsive .dropdown1 {
         float: none;
     }
-
     .topnav.responsive .dropdown-content {
         position: relative;
     }
-
     .topnav.responsive .dropdown1 .dropbtn {
         display: block;
         width: 100%;
@@ -1324,7 +1269,6 @@ tbody {
     border: 1px solid #000;
     box-sizing: border-box;
     border-radius: 2px;
-
 }
 
 .loginButton {
@@ -1408,7 +1352,6 @@ tbody {
 */
 
 @media screen and (min-width: 100px) and (max-width: 400px) {
-
     /*.modal {
         display: none;
         position: fixed;
@@ -1452,7 +1395,6 @@ tbody {
         flex-direction: column;
         align-items: center;
     }
-
     .loginField {
         width: 100%;
         padding: 10px;
@@ -1461,9 +1403,7 @@ tbody {
         border: 1px solid #000;
         box-sizing: border-box;
         border-radius: 2px;
-
     }
-
     .loginButton {
         background-color: #00CC00;
         border: 1px solid #00CC00;
@@ -1560,27 +1500,21 @@ tbody {
         justify-content: center;
         align-items: center;
     }
-
     .formHeader {
         text-align: center;
     }
-
     .name {
         width: 140px;
     }
-
     .phone-number {
         width: 120px;
     }
-
     .email-address {
         width: 120px;
     }
-
     .class-option {
         width: 120px;
     }
-
     .btn-submit {
         width: 100px;
     }
@@ -1665,24 +1599,20 @@ tbody {
 }
 
 @media screen and (max-width: 768px) and (min-width: 10px) {
-
     .sectionWrapper-main {
         display: flex;
         justify-content: space-between;
         flex-direction: column;
     }
-
     .sectionWrapper-main-img {
         height: 150px;
         width: auto;
     }
-
     .banner-image {
         height: 150px;
         max-width: 100%;
         margin: 10px;
     }
-
     .inner-wrapper-list {
         display: flex;
         flex-direction: column;
@@ -1690,7 +1620,6 @@ tbody {
         align-items: center;
         flex-grow: 1;
     }
-
     .inner-wrapper-list li {
         list-style: none;
     }
@@ -1722,7 +1651,6 @@ tbody {
 }
 
 @media screen and (max-width: 526px) and (min-width: 10px) {
-
     .appHeader {
         font-size: 24px;
     }
@@ -1738,7 +1666,6 @@ tbody {
     .android {
         display: inline;
     }
-
     .imageWrapper {
         display: none;
     }
@@ -1807,18 +1734,15 @@ tbody {
         height: auto;
         width: auto;
     }
-
     .contact-form-header-none {
         display: none;
     }
-
     .contact-form-header {
         font-size: 22px;
         font-weight: 900;
         color: #777;
         padding: 0 0 0 5px;
     }
-
     .contact-form {
         grid-template-columns: repeat(6, 160px);
         justify-content: center;
@@ -1831,22 +1755,18 @@ tbody {
         height: auto;
         width: auto;
     }
-
     .contact-form-header-none {
         font-size: 22px;
         font-weight: 900;
         color: #777;
         padding: 5px 0 5px 5px;
     }
-
     .contact-form-header {
         display: none;
     }
-
     .user-class-option {
         font-size: 16px;
     }
-
     .contact-form {
         grid-template-columns: 130px 130px 130px 150px 90px;
         justify-content: center;
@@ -1860,18 +1780,15 @@ tbody {
         height: auto;
         width: auto;
     }
-
     .contact-form-header-none {
         font-size: 22px;
         font-weight: 900;
         color: #777;
         padding: 5px 0 5px 5px;
     }
-
     .contact-form-header {
         display: none;
     }
-
     .contact-form {
         grid-template-columns: 100px 100px 100px 100px 80px;
         justify-content: center;
@@ -1886,7 +1803,6 @@ tbody {
         height: auto;
         width: auto;
     }
-
     .contact-form-header-none {
         display: block;
         font-size: 22px;
@@ -1894,21 +1810,17 @@ tbody {
         color: #777;
         padding: 10px 0 5px 10px;
     }
-
     .contact-form-header {
         display: none;
     }
-
     .contact-form {
         grid-template-columns: 1fr;
         justify-content: center;
         padding: 15px;
     }
-
     .sectionHeader-main {
         font-size: 20px;
     }
-
     .sectionHeader-sub {
         font-size: 28px;
     }
@@ -1977,12 +1889,91 @@ tbody {
     width: 100%;
 }
 
-.fees-structure-title{
+.fees-link {
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+    border-right: 2px solid #777;
+}
+
+.fees-table{
+    margin: 30px 0 0 0;
+}
+
+.table-sm-header{
+    color: #000;
+    font-size: 16px;
+    text-align: center;
+}
+
+.table-sm-header-sub{
+    color: #000;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.table-sm-first-col{
+    color: #000;
+    font-size: 14px;
+    padding: 5px 3px;
+}
+
+.refund-link{
+    text-transform: none;
+    text-decoration: none;
+    color: #fff;
+    padding-right: 5px;
+    border-right: 2px solid #777;
+}
+
+.fees-structure-title {
     font-size: 24px;
     color: #000;
     text-align: center;
 }
 
+.modal-body-header-main {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+.modal-body-header-sub {
+    font-size: 20px;
+    color: #000;
+    text-align: left;
+}
+
+.modal-body-header-second{
+    margin-top: 30px;
+    font-size: 20px;
+    color: #000;
+}
+
+.refund-title{
+    font-size: 20px;
+    color: #000;
+}
+
+.modal-body-list{
+    font-size: 16px;
+    color: #000;
+    padding: 20px;
+}
+
+.modal-body-list li{
+    margin: 10px 0;
+}
+
+.modal-body-list :nth-last-child(){
+    margin-left: 15px;
+}
+
+.terms-title{
+    font-size: 20px;
+    color: #000;
+}
 
 .sectionFooterList {
     display: flex;
@@ -2148,32 +2139,27 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 992px) and (min-width: 700px) {
-
     .first-form-wrapper {
         display: grid;
         grid-template-columns: 100px 155px 155px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-email {
         display: grid;
         grid-template-columns: 100px 170px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-country {
         display: grid;
         grid-template-columns: 100px 10px 50px 10px 80px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-state {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-address {
         display: grid;
         grid-template-columns: 100px 1fr;
@@ -2183,32 +2169,27 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 700px) and (min-width: 526px) {
-
     .first-form-wrapper {
         display: grid;
         grid-template-columns: 100px 155px 155px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-email {
         display: grid;
         grid-template-columns: 100px 170px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-country {
         display: grid;
         grid-template-columns: 100px 10px 80px 10px 80px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-state {
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-address {
         display: grid;
         grid-template-columns: 100px 1fr;
@@ -2218,46 +2199,38 @@ input[type="radio"] {
 }
 
 @media screen and (max-width: 526px) and (min-width: 200px) {
-
     .first-form-wrapper {
         display: flex;
         flex-direction: column;
         font-size: 10px;
     }
-
     .first-form-wrapper input {
         margin-bottom: 10px;
         height: 30px;
     }
-
     .first-form-wrapper-email {
         display: flex;
         flex-direction: column;
         font-size: 10px;
     }
-
     .first-form-wrapper-email input {
         height: 30px;
     }
-
     .first-form-wrapper-country {
         display: grid;
         grid-template-columns: 60px 10px 50px 10px 80px;
         grid-gap: 10px;
     }
-
     .first-form-wrapper-state {
         display: flex;
         flex-direction: column;
         margin-bottom: 20px;
     }
-
     .first-form-wrapper-address {
         display: flex;
         flex-direction: column;
         font-size: 10px;
     }
-
     .first-form-wrapper-address input {
         margin-bottom: 10px;
         height: 30px;
