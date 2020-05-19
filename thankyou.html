@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+    <div id="header">
+        <div class="navBar">
+            <div class="navBar-logo">
+                <a href="index.php"> <img src="img/logo.png" alt="JEE" class="navBar-logo-image"></a>
+            </div>
+            <div class="navbar-form">
+                <form action="" method="post" class="navbar-form-section">
+                    <input type="text" placeholder="Username" id="user" name="user" class="nav-login-field" required>
+                    <input type="password" placeholder="Password" id="pass" name="pass" class="nav-login-field"
+                        required>
+                    <button class="nav-login-btn" id="btnLogin" type="submit" name="Submit" id="Submit"> Login
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+            <a href="index.php">Home</a>
+            <div class="dropdown1">
+                <button class="dropbtn">Courses
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="jee-online-coaching-for-class-9.php">Class IX Foundation</a>
+                    <a href=" jee-online-coaching-for-class-10.php">Class X Foundation</a>
+                    <a href="jee-online-coaching-for-class-11.php">JEE Class XI</a>
+                    <a href="jee-online-coaching-for-class-12.php">JEE Class XII</a>
+                    <a href="jee-online-coaching-for-class-12-repeater.php">JEE Repeater</a>
+                </div>
+            </div>
+            <a href="about-us.php">About Us</a>
+            <a href="contact-us.php">Contact Us</a>
+            <a href="faq.php">FAQ's</a>
+            <a href="#schedule_demo12" data-toggle="modal">Schedule Demo</a>
+            <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card mt-4 p-4">
+            <h3 class="thankyou-text">Thank you for scheduling a demo with livecbse.com. Our counsellor will
+                contact
+                you soon.</h3>
+
+            <h1 class="info-newsletter">If you want to get updates via email address, then please provide your
+                email address below</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="" class="m-0">Medium of Class</label>
+                        <select name="medium_language" id="medium_language" class="form_fields">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Hindi">Mixed</option>
+                            <option value="Hindi">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-6">
+                    <div class="form-group">
+                        <label for="" class="m-0">Email Address</label>
+                        <input type="text" id="schedule_email" name="schedule_email" class="form_fields">
+                    </div>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="">Select Subjects</label>
+                <div class="checkboxes-div">
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_Physics" value="Physics" type="checkbox">
+                        <label for="schedule_Physics">Physics</label>
+                    </div>
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_Chemistry" value="Chemistry" type="checkbox">
+                        <label for="schedule_Chemistry">Chemistry</label>
+                    </div>
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_Mathematics" value="Mathematics" type="checkbox">
+                        <label for="schedule_Mathematics">Mathematics</label>
+                    </div>
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_English" value="English" type="checkbox">
+                        <label for="schedule_English">English</label>
+                    </div>
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_Biology" value="Biology" type="checkbox">
+                        <label for="schedule_Biology">Biology</label>
+                    </div>
+                    <div class="md-checkbox">
+                        <input name="schedule_subject[]" id="schedule_Science" value="Science" type="checkbox">
+                        <label for="schedule_Science">Science</label>
+                    </div>
+                </div>
+            </div>
+            <input type="button" value="Submit" class="submit-textarea-btn" onclick="update_email()">
+        </div>
+    </div>
+</body>
+
+</html>
